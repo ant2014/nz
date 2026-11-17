@@ -1,0 +1,557 @@
+{
+  "version": "1.0",
+  "date": "2026-11-17",
+  "source": "哪吒英文启蒙动画_场景锚点图方案_V1.0.md",
+  "style": "2D cel-shaded Chinese mythic fantasy animation, fine dark ink outlines of even weight, flat colour fills with one hard-edged shadow layer, hand-painted watercolour skies, very subtle rice-paper grain, no 3D rendering, no photoreal skin, no lens flare, no chromatic bloom; character designs, colours, proportions and line weight must match the supplied reference sheets exactly.",
+  "negative": "NEGATIVE: no on-screen text or lettering of any kind, no modern objects, no plastic, no photorealistic skin or 3D render, no lens flare or bloom, no Japanese anime eye sparkles, no extra characters beyond those described, no adult-proportioned child, no full-body dragon, no change to the fixed landmarks of this scene.",
+  "smoke_negative": "no on-screen text or lettering of any kind, no modern objects, no plastic, no photorealistic skin or 3D render, no lens flare or bloom, no Japanese anime eye sparkles, no extra characters beyond those described, no adult-proportioned child, no full-body dragon, no change to the fixed landmarks of this scene",
+  "camera": {
+    "A": "wide establishing shot, eye level, 24mm equivalent, horizon per scene card, static, full depth of field",
+    "B": "medium shot, 50mm equivalent, subject on the left third, slight background falloff",
+    "C": "close detail shot, 85mm equivalent, shallow depth of field, object centred, background soft"
+  },
+  "rules": {
+    "scene_anchor": "empty set, no people, no characters",
+    "text": "readable text is never generated; plaques, banners, letters and milestones keep an ink block only, lettering added in post",
+    "scale": "one known-size reference object must be visible in frame",
+    "water_axis": "in all S04 scenes water stays on the left, shore and people on the right",
+    "one_light": "S05 has exactly one light source, the hanging pearl"
+  },
+  "palette": {
+    "ink": "#2B2622",
+    "paper": "#EFE7D6",
+    "vermilion": "#C0392B",
+    "deep_vermilion": "#8E2A22",
+    "ochre": "#A9714B",
+    "gamboge": "#E3A93B",
+    "mineral_blue": "#5C7F86",
+    "deep_teal": "#1B3A4B",
+    "malachite": "#6E8C5A",
+    "shell_white": "#F4F1E8",
+    "stone": "#8B8A80",
+    "near_black": "#16202B"
+  },
+  "scale": {
+    "characters": {
+      "C01": "95cm",
+      "C01b": "140cm",
+      "C08": "168cm",
+      "C02": "180cm",
+      "C03": "165cm",
+      "C04": "170cm",
+      "C05": "175cm",
+      "C06": "172cm",
+      "C07": "220cm",
+      "C09": "235cm",
+      "C10": "175cm",
+      "C11": "172cm",
+      "C12": "160cm, wingspan 220cm",
+      "C13": "105cm",
+      "C14": "168cm",
+      "C15": "180cm",
+      "C16": "head 300cm+",
+      "C17": "shoulder 65cm",
+      "C19": "110cm"
+    },
+    "scene": {
+      "S01-1": "stone lion 1.6m, gate passage 2.6m",
+      "S01-2": "gate passage 2.6m",
+      "S01-3": "merlon 1.1m, tower post 4m",
+      "S01-4": "milestone 0.6m, road 2.2m wide",
+      "S02-1": "low wall 2.0m, step 0.18m",
+      "S02-2": "column 3.2m at 2.4m spacing, corridor 1.8m",
+      "S02-3": "door 2.2m, wall 2.0m, stool 0.45m",
+      "S03-1": "altar table 2.4m long, 0.9m high, screen 2.2m",
+      "S03-2": "desk 0.78m, map 1.2x0.9m",
+      "S03-3": "gap 0.6m, screen 2.2m",
+      "S04-1": "largest reef 2.2m, sand bar 5m",
+      "S04-2": "plank 1.2m, water ankle deep",
+      "S04-3": "boat 6m, drying rack 2m, fish 0.3m",
+      "S05-1": "coral column 6m, pearl 1.2m at 7m, jade step 0.15m",
+      "S05-2": "steps 15m total, riser 0.15m, column 5m",
+      "S06-1": "pool 6m, lotus 1.8m, step 0.18m",
+      "S06-2": "platform 2.2x1.6m, 0.4m high, censers 0.8/0.6/0.8m",
+      "S06-3": "cave mouth 3m, step 0.18m x 1.2m wide, sandal 0.25m",
+      "S06-4": "practice post 1.6m, clearing 8m",
+      "S06-5": "boulder 1.2m",
+      "S07-1": "awning 2.2m, street 4m, coin 2.5cm",
+      "S07-2": "screen wall 2.4m, alley 2m",
+      "S08-1": "offering table 2m wide 1.0m high, threshold 0.35m, tablet 0.3m",
+      "S09-1": "pedestal 0.9m, wall gap 2m, pebble 8-15cm",
+      "S10-1": "gap 1.2m, milestone 0.6m, path 2m",
+      "S10-2": "boulder 0.8m, willow 6m, pit 1m",
+      "S11-1": "camp gate 4m, flag pole 5m, cheval 1.2m",
+      "S11-2": "table 1.6m long 0.5m high, tent 3m",
+      "S11-3": "jar 0.9m, pot 1.2m, bowl 0.12m",
+      "S12-1": "main flag pole 8m, broken spear 1.4m, mirror 0.6m",
+      "S12-2": "pillar 4.5m tall 0.8m across, fallen banner 5m, crack 6m",
+      "S13-1": "boat 6m, pier post 1.4m out of water, lighthouse 5m",
+      "SKY-1": "cloud platform 3m wide, no ground scale; roof grain conveys height"
+    }
+  },
+  "scenes": {
+    "S01-1": {
+      "cn": "陈塘关·城门外与土路",
+      "eps": "9-12, 30-32, 51, 64, 93-95",
+      "lock": "an ancient coastal Chinese fortress gate seen from outside, a three-tier grey gate tower with a slightly crooked dark wooden plaque bearing only an ink block, grey sandstone walls with crenellations, a dark arched gate passage 2.6m high, two stone lions flanking the gate with the left lion missing one ear, a string of exactly seven red paper lanterns along the crenellated wall, one crooked old locust tree leaning east, a rutted ochre dirt road running east and exiting bottom-right, low heavy grey clouds, a flat grey sea only on the far right horizon.",
+      "light": "overcast grey daylight with a cold blue cast, exactly seven lanterns glowing warm against the grey wall, flat sea light on the far right",
+      "states": ["default", "night", "rain", "flood", "aftermath"]
+    },
+    "S01-2": {
+      "cn": "陈塘关·门洞内朝外",
+      "eps": "12, 18, 51, 95",
+      "lock": "the deep interior of a fortress gate passage, thick grey stone jambs, five worn flagstones under the arch, one red lantern hanging from the centre of the vault as the only warm light, the bright town street visible through the far opening, a single wheel rut in the dirt outside, cool shadow inside against warm daylight beyond.",
+      "light": "cool shadow inside the gate passage, one warm lantern overhead, bright warm daylight beyond, the outside 20% more saturated than the inside",
+      "states": ["default", "night", "rain"]
+    },
+    "S01-3": {
+      "cn": "陈塘关·城墙顶与城楼（含锁着的乾坤弓）",
+      "eps": "17, 32, 52-53, 98",
+      "lock": "on top of a grey sandstone fortress wall, crenellations running across the lower fifth of frame, a wooden watchtower with a red railing on the left two-thirds, on its wall bracket a long bow locked with a red cord (a prop that is never taken down or drawn), one missing corner in the third merlon, an open gap on the right looking out to a flat grey sea at 30% of frame height, cold overcast light.",
+      "light": "cold overcast light from above, a warm pool around the lanterns, the far sea flattened into grey-blue haze",
+      "states": ["default", "dusk", "night", "flood", "aftermath"]
+    },
+    "S01-4": {
+      "cn": "陈塘关·城东小路",
+      "eps": "18, 38, 94",
+      "lock": "a narrow ochre dirt road running east into the distance in one-point perspective, low grass and earthen banks on both sides, two deep wheel ruts, a half-buried blank milestone 0.6m high on the left, a wind-bent reed cluster on the right, a pale misty horizon at 55% of frame height, one tiny distant point of light at the end of the road.",
+      "light": "pale misty morning light along the road, one tiny warm point at the far end, no strong shadows",
+      "states": ["default", "dusk", "night", "rain"]
+    },
+    "S02-1": {
+      "cn": "李府·庭院天井",
+      "eps": "1-8, 9-11, 13, 66-68, 95-99",
+      "lock": "a Chinese courtyard mansion's open inner court, grey brick paving in a herringbone pattern running diagonally north-east, six vermilion columns around a covered walkway, a three-step stone stair to the main house at the top third with a worn hollow on the second step, a stone well with rope marks on the rim on the west side, an old plum tree leaning south-east with one empty birdcage hanging in its branches, a bamboo laundry pole on two stands on the east side, a low grey brick wall at the south edge, whitewashed walls, warm late-afternoon sunlight.",
+      "light": "warm late-afternoon sunlight raking across the brick paving at 35 degrees from the west, long soft shadows",
+      "states": ["default", "night", "night_rain", "flood", "dawn_mist"]
+    },
+    "S02-2": {
+      "cn": "李府·回廊",
+      "eps": "1, 6-7, 10, 30-31",
+      "lock": "a covered wooden corridor in a Chinese courtyard mansion in one-point perspective, vermilion columns on both sides at 2.4m spacing with round stone plinths, three red lanterns hanging overhead, paper-lattice windows at the far end, grey brick floor, afternoon light cutting across the corridor in warm bars.",
+      "light": "afternoon light cutting across the corridor in warm bars, the lower half of frame in cool shade",
+      "states": ["default", "night", "rain"]
+    },
+    "S02-3": {
+      "cn": "李府·后门与后院矮墙",
+      "eps": "13, 17, 18",
+      "lock": "the back gate of a courtyard mansion, a heavy ochre wooden door with a new brass lock hanging on the outside at the golden-section point, a low grey brick wall 2m high with a stool left at its foot, two old bolt marks on the door, a narrow lane behind leading to bright light, warm afternoon shade.",
+      "light": "warm afternoon shade on the wall, the brass lock catching one bright highlight, a bright lane beyond the gate",
+      "states": ["default", "night", "rain"]
+    },
+    "S03-1": {
+      "cn": "李府·内堂",
+      "eps": "1-8, 30, 31, 66-68, 100",
+      "lock": "a formal Chinese hall interior, dark wooden beams overhead, a long altar table 2.4m wide across the middle of frame, a five-piece celadon tea set on it with two chipped cup rims, two high-backed chairs set symmetrically, a six-panel folding screen behind painted with sea waves and clouds with a crack running through the middle panel, a dark plaque with an ink block on the beam, lattice windows with paper panes, soft indoor daylight.",
+      "light": "soft daylight through paper windows, a warm pool of light around the altar table, beam shadows overhead",
+      "states": ["default", "night", "overcast_guest"]
+    },
+    "S03-2": {
+      "cn": "李府·书房（地图与红线）",
+      "eps": "16",
+      "lock": "a Chinese general's study seen from a 35-degree downward angle, a wide desk holding an unrolled paper map with a pale blue sea in its lower-right corner and one thin river line, a vermilion brush resting on the map with wet ink, four paperweights (three white, one black), a bronze lamp on the left, shelves of scrolls along the right edge, slanted daylight from a tall window.",
+      "light": "slanted daylight from a tall window on the upper right plus one warm bronze lamp on the desk",
+      "states": ["default", "night"]
+    },
+    "S03-3": {
+      "cn": "李府·屏风后的窄缝",
+      "eps": "30, 31",
+      "lock": "the narrow gap behind a folding screen in a formal hall, the silk screen filling the right 60% of frame in soft focus with wave brushstrokes, a 0.6m gap on the left with one corner of red silk hanging inside it, a bright hall beyond and near-total shadow inside the gap, a paper shim under one screen foot.",
+      "light": "bright hall light outside, near-total shadow in the 0.6m gap, one hard edge of light along the screen",
+      "states": ["default", "night"]
+    },
+    "S04-1": {
+      "cn": "九湾河·浅滩礁石段",
+      "eps": "19-21, 23-28",
+      "lock": "a wide shallow river mouth at low tide, water filling the lower two-thirds of frame and flowing from back-left to front-right, three black reef rocks in the mid-ground on the left with the largest split by a clean axe-like crack, a sand bar in the middle of the river, wet sand scattered with shells in the foreground, one wind-bent reed cluster on the right, two layers of blue-grey hills on the far bank, horizon at 32% of frame height.",
+      "light": "low morning sun on the water, warm highlights on the surface, crisp pale sky, the far bank in soft blue haze",
+      "states": ["default", "red_water", "wave_wall", "storm", "night", "low_tide"]
+    },
+    "S04-2": {
+      "cn": "陈塘关·岸边沙滩",
+      "eps": "34-37, 54-56, 98-99",
+      "lock": "an open sandy shore facing east, gentle surf with white foam on the left half, a crescent high-tide line across the sand, a half-buried plank sticking out of the sand, scattered shells, and far in the upper right the silhouette of a grey fortress wall with a single red lantern glowing on it, low warm sky.",
+      "light": "low warm sky, gentle glow on wet sand, the fortress wall far behind in cool grey with one red point",
+      "states": ["default", "dusk", "lotus_light", "night", "storm"]
+    },
+    "S04-3": {
+      "cn": "陈塘关·渔村段",
+      "eps": "15",
+      "lock": "a small fishing village on the shore, three long drying racks hung with rows of silver fish across the mid-ground with the middle rack missing one cross-beam, two upturned wooden boats with patched hulls on the left, two low stone cottages with thatch roofs on the right, a fishing net hanging by a door, packed sandy earth underfoot, a thin blue strip of sea on the far left.",
+      "light": "warm late-afternoon backlight through the drying fish, soft haze over the cottages",
+      "states": ["default", "dusk", "dawn_mist"]
+    },
+    "S05-1": {
+      "cn": "龙宫·大殿",
+      "eps": "22, 29, 63",
+      "lock": "an underwater dragon palace throne hall seen symmetrically, eight coral columns carved with coiling dragons four on each side, a nine-step jade stair rising to a throne of shell and gold whose two armrests end in outward-facing dragon heads, the fifth step cracked, a giant luminous pearl 1.2m across hanging from the dome as the only light source casting one cold cone, two shrimp-guard statues holding halberds flanking the door, a water curtain across the far arch, near-black teal beyond the cone.",
+      "light": "deep blue-green underwater light, one cold cone from the hanging pearl, everything beyond the cone falls into near-black teal",
+      "states": ["default", "shaking", "dim_judgement"]
+    },
+    "S05-2": {
+      "cn": "龙宫·台阶回廊",
+      "eps": "65",
+      "lock": "a long ascending corridor of an underwater dragon palace, wide jade steps receding upward in a low-angle one-point perspective, coral balustrades and a row of seven hanging water-lamps on each side with the rightmost one dark, a shallow channel cut down the middle of the steps with water running through it, drifting bubbles between the columns, cold blue-green light.",
+      "light": "cold blue-green light, weak lamp glow, the finest light on the middle steps",
+      "states": ["default", "lamps_doused"]
+    },
+    "S06-1": {
+      "cn": "乾元山·洞内莲池",
+      "eps": "39, 40",
+      "lock": "a lotus pool inside a mountain cave temple, a twelve-petal giant white lotus 1.8m across at the centre, seven stone steps descending into the water on the right, steam drifting in layers over the surface, light entering through one natural slot in the rock wall opposite and illuminating only the flower, dark teal shadow around the pool.",
+      "light": "soft warm light from one slot in the rock wall, steam catching it in layers, dark teal shadow around the pool",
+      "states": ["default", "lotus_opening", "starlight"]
+    },
+    "S06-2": {
+      "cn": "乾元山·洞内石台",
+      "eps": "41, 42",
+      "lock": "a stone practice platform inside a mountain cave temple, 2.2m wide with two shallow footprint hollows worn into its top, a spear hole in the floor 30cm from its edge, three bronze censers in a row with the middle one shorter, faint cloud-pattern murals on the rock wall, pale gold light entering from behind on the right.",
+      "light": "pale gold cave light entering from behind on the right, long shadows across the stone platform",
+      "states": ["default", "sunset", "night", "cave_mist"]
+    },
+    "S06-3": {
+      "cn": "乾元山·洞口与石阶",
+      "eps": "38, 40, 50",
+      "lock": "a cave mouth on a cliff facing west, a stone platform outside it, one old pine leaning 30 degrees toward a sea of clouds, a flight of 108 narrow stone steps descending to the right with the seventh step chipped, two stone lanterns flanking the mouth, a pair of new straw sandals left on the platform with their toes pointing outward, bright backlight beyond the mouth and near-black inside.",
+      "light": "bright backlight beyond the cave mouth, near-black inside, two stone lanterns warm",
+      "states": ["default", "night", "rain", "cloud_surge"]
+    },
+    "S06-4": {
+      "cn": "乾元山·后山石坪",
+      "eps": "42, 43, 50",
+      "lock": "a flat stone clearing behind a mountain temple, ringed by pines, deep radial spear-point scratch marks on the rock floor, three wooden practice posts 1.6m high on the right, one pine with its branches scorched black, short hard noon light.",
+      "light": "short hard noon light, sharp small shadows, scorched pine in silhouette",
+      "states": ["default", "dusk", "night"]
+    },
+    "S06-5": {
+      "cn": "乾元山·云海崖",
+      "eps": "41, 38, 76",
+      "lock": "a cliff edge above a three-layered sea of clouds, a flat boulder 1.2m high worn with a shallow hollow on top, cloud banks below, a distant thread of coastline and one tiny warm light in the upper right at 30% of frame height, cold blue high-altitude light with warm cloud rims.",
+      "light": "cold blue high-altitude light with warm cloud rims, one tiny warm light far below on the right",
+      "states": ["default", "sunset", "night", "wind"]
+    },
+    "S07-1": {
+      "cn": "陈塘关·街市主街",
+      "eps": "14",
+      "lock": "a narrow Chinese market street paved with blue flagstones in one-point perspective, cloth awnings on both sides, a candy stall in the left foreground with a straw stand holding three sugar figures (a rabbit, a rooster, a round ball) and four candied-hawthorn skewers, a fish stall with three wooden tubs of live fish, a pottery stall on the right with one earless jar, cloth banners overhead shown only as colour blocks, warm morning light.",
+      "light": "bright morning light, shade under the awnings, warm bounce on the flagstones",
+      "states": ["default", "early", "noon_crowd", "chase", "after_rain"]
+    },
+    "S07-2": {
+      "cn": "陈塘关·巷口",
+      "eps": "14",
+      "lock": "a tight alley two metres wide ending at a screen wall, three stone steps before the wall, a blank dark rectangular patch at the centre of the wall where a notice once hung, an over-turned fruit basket with fruit rolled to the steps, a water stain on the left wall, two laundry lines overhead, one bright opening behind and shadow inside.",
+      "light": "shadow inside the alley, one bright opening behind, a hard edge of light on the screen wall",
+      "states": ["default", "after_rain"]
+    },
+    "S08-1": {
+      "cn": "陈塘关·祠堂享堂",
+      "eps": "17",
+      "lock": "an ancestral hall interior of three bays, a long offering table 2m wide across the middle with a chipped corner on the lower right, a three-legged censer missing one ear, five rows of ancestral tablets shown only as ink blocks, two candle stands, a high stone threshold 0.35m, one shaft of light from a roof opening falling on the table, deep shadow elsewhere.",
+      "light": "one shaft of light from a roof opening falling on the offering table, deep warm shadow elsewhere, two candle points",
+      "states": ["default", "breaking", "night", "after_rain"]
+    },
+    "S09-1": {
+      "cn": "乾元山·山脚花园（石矶）",
+      "eps": "43-49",
+      "lock": "a small stone garden at the foot of a mountain, pebble mosaic laid in wave patterns running left to right, a stone table and stools and sculpted bonsai on the right, an empty square stone pedestal 0.9m high at the centre with a thin moss layer, a two-metre gap in the low garden wall on the left with rubble spilling outside it, one flower bed flattened to the ground, bamboo at the back, hard morning light.",
+      "light": "hard morning light at a low angle, short crisp shadows, moss glowing slightly",
+      "states": ["default", "wrecked", "stone_army", "night"]
+    },
+    "S10-1": {
+      "cn": "山道",
+      "eps": "38, 50, 69, 94",
+      "lock": "a mountain path of ochre earth and gravel, a cliff face on the left and a slope on the right, a narrow 1.2m gap between two boulders in the mid-ground, a half-buried blank milestone 0.6m high, an old tree split by lightning into two trunks, three layers of distant ridges, misty horizon at 42% of frame height.",
+      "light": "pale misty morning light on the path, distant ridges washed out to blue-grey",
+      "states": ["default", "night", "dusk", "rain"]
+    },
+    "S10-2": {
+      "cn": "渭水·河滩",
+      "eps": "72-75",
+      "lock": "a gravel riverbank beside a slow broad river, a flat square boulder 0.8m across at the water's edge just left of centre with a polished top face, an old willow on the right with freshly dug earth at its roots, reed clusters on the left, one muddy pit about 1m across, low hills on the far bank, horizon at 38% of frame height.",
+      "light": "flat afternoon light over the gravel bank, soft sheen on the river, warm rim on the willow",
+      "states": ["default", "dusk", "night", "after_rain"]
+    },
+    "S11-1": {
+      "cn": "西岐大营·营门与旗阵",
+      "eps": "76-77, 80-81, 91",
+      "lock": "a war camp gate on an open plain, two wooden watchtowers flanking the gate with the left tower missing one cross-beam, chevaux-de-frise on both sides, a forest of tall letterless banners in eight alternating colours receding behind the gate, one plain blank banner at the far edge of the line, a bronze stand holding three horns, packed ochre earth, dusty wind.",
+      "light": "dry dusty daylight, banners backlit and translucent, dust haze on the horizon",
+      "states": ["default", "besieged", "drought", "aftermath", "dusk"]
+    },
+    "S11-2": {
+      "cn": "西岐大营·大帐内",
+      "eps": "77, 93",
+      "lock": "the interior of a command tent, a low table 1.6m long holding the same unrolled paper map with pale blue sea and one river line, a three-legged bronze lamp with a cracked shade on the right, three folding stools, a lamellar breastplate with one old arrow scar hanging on the tent wall, a campaign banner in the corner, dusk light entering through the tent mouth.",
+      "light": "warm lamp light inside, cool dusk light at the tent mouth",
+      "states": ["default", "night", "dawn"]
+    },
+    "S11-3": {
+      "cn": "西岐大营·伙房",
+      "eps": "81, 85, 92",
+      "lock": "a field kitchen behind a war camp, a clay stove on the left with a huge iron pot 1.2m across whose rim is chipped, five empty water jars standing in a row in the mid-ground with mud at their bottoms, stacked grain sacks on the right, a pile of seven wooden bowls with the top one chipped, steam crossing the middle of frame.",
+      "light": "warm stove fire glow from the left, cool daylight from outside, steam catching both",
+      "states": ["default", "drought", "aftermath"]
+    },
+    "S12-1": {
+      "cn": "阵前·荒滩",
+      "eps": "78-80, 86-87",
+      "lock": "a flat stony plain with no cover, a wall of dark letterless banners across the mid-ground with one taller main banner at its centre, five broken spears stuck slanting into the ground, low ground mist drifting 30cm high, a bronze mirror 0.6m across on a lacquer stand, flat overcast light with no cast shadows, horizon at 48%.",
+      "light": "flat overcast light with no cast shadows, low mist scattering the light, one hard specular from the mirror",
+      "states": ["default", "mirror_light", "broken", "dusk"]
+    },
+    "S12-2": {
+      "cn": "阵眼·黑柱",
+      "eps": "89-91",
+      "lock": "the centre of a fog array, a black stone pillar 4.5m tall carved with concentric ring patterns and one dull red vein at mid-height, eight fallen banners around it — three on the east side and five on the west, twelve radial cracks spreading from the pillar base, low ground mist, flat shadowless light.",
+      "light": "flat shadowless fog light, the dull red vein the only warm note",
+      "states": ["default", "breaking", "after"]
+    },
+    "S13-1": {
+      "cn": "东海·海口码头",
+      "eps": "57-64",
+      "lock": "a fishing harbour where two cliffs pinch the river mouth into a narrow gate 60m wide, a wooden pier on pilings running in from the lower right, twenty fishing boats crowded three abreast inside the mouth, three drying racks and stacked fish baskets on the pier, stone steps descending into the water, a small unlit stone lighthouse with three stone eaves at the pier head, one mooring post leaning 15 degrees, cold sea mist.",
+      "light": "cold sea mist, diffuse grey light, wet wood and water reflecting the sky",
+      "states": ["default", "blocked", "dragon_surge", "receding", "treaty"]
+    },
+    "SKY-1": {
+      "cn": "云端高空",
+      "eps": "1, 38",
+      "lock": "high above a coastal town, three layered cloud banks, a flat cloud platform at the lower centre whose edge curls into a cloud tongue, the town's grey roofs reduced to thumbnail size far below, one tiny red lantern glowing at 40% of frame width on the lower left, cold blue high-altitude light with warm cloud rims.",
+      "light": "cold high-altitude blue light with warm cloud rims, the town far below in shadow",
+      "states": ["default", "dusk", "night"]
+    }
+  },
+  "characters": {
+    "C01": {
+      "cn": "哪吒（幼年 1-39）",
+      "height": "95cm",
+      "lock": "a chubby Chinese toddler of about three, 95cm tall, barefoot, wearing only a red silk bellyband with faint gold embroidery, a wide gold bangle on the right wrist, a long vermilion silk sash wound at the waist, black hair in two small top-knots tied with red cord, a thin gold anklet on the right ankle, round amber eyes with two fixed highlight dots at their lower edge, a small red flame-shaped mark at the centre of the forehead.",
+      "variants": ["mud", "wet_hair", "scratched", "asleep_sash_as_blanket"]
+    },
+    "C01b": {
+      "cn": "哪吒（莲身少年 40-100）",
+      "height": "140cm",
+      "lock": "a slim Chinese boy of about eight, 140cm tall, barefoot, a short lotus-white tunic with faint lotus embroidery and a vermilion waist sash, black hair in one high tail tied with red cord, round amber eyes with two fixed highlight dots at their lower edge, a small pale lotus mark at the centre of the forehead in exactly the position of the former flame mark.",
+      "variants": ["wet", "armour_C01c"]
+    },
+    "C01c": {
+      "cn": "哪吒（出征 67-94）",
+      "height": "140cm",
+      "lock": "C01b plus a short dark-red cloak, one small red leather shoulder guard on the right, cloth wrist wraps, barefoot until the horse episode and cloth boots afterwards, no helmet.",
+      "variants": ["boots_after_93"]
+    },
+    "C02": {
+      "cn": "李靖",
+      "height": "180cm",
+      "lock": "a stern Chinese man of about forty, 180cm, dark indigo robe with black armour trim, a leather belt, a straight sword at his hip, a short neat beard, hair in a topknot with a black crown",
+      "variants": ["armour_on_wall", "sword_pointing_outward_ep52"]
+    },
+    "C03": {
+      "cn": "殷夫人",
+      "height": "165cm",
+      "lock": "a gentle Chinese woman of about thirty-five, 165cm, pale blue linen robe with a soft grey sash, hair in a low bun with a silver hairpin, warm calm face, one faint scar on the back of the right hand",
+      "variants": ["pregnant_eps1-2", "holding_bellyband"]
+    },
+    "C04": {
+      "cn": "太乙真人",
+      "height": "170cm",
+      "lock": "an ancient Taoist master, 170cm, slightly stooped, wide-sleeved white robe with pale silver cloud embroidery, long white beard, a jade hairpin, a gourd at the waist, cloth sandals, a white horsehair whisk in his right hand",
+      "variants": ["seated_by_pool"]
+    },
+    "C05": {
+      "cn": "金吒",
+      "height": "175cm",
+      "lock": "a Chinese teenage boy of about sixteen, 175cm, pale blue travelling robe, leather wrist guards, hair in a high topknot, a short sword at the waist",
+      "variants": ["travelling_dust"]
+    },
+    "C06": {
+      "cn": "木吒",
+      "height": "172cm",
+      "lock": "a Chinese teenage boy of about fifteen, 172cm, light brown travelling robe, cloth leg wraps, hair in a high topknot, a short sword at the waist, a small peach-wood sword pendant on a cord",
+      "variants": ["pendant_given_ep12"]
+    },
+    "C07": {
+      "cn": "东海龙王敖广",
+      "height": "220cm",
+      "lock": "a dragon king with a human torso 220cm tall and a dragon head, gold scaled robe, long drifting whiskers, a tall crown with two curled horns, gilded nails",
+      "variants": ["wet_robe_ep30", "standing_on_wave"]
+    },
+    "C08": {
+      "cn": "敖丙",
+      "height": "168cm",
+      "lock": "a calm Chinese youth of about seventeen, 168cm tall, wearing pure white robes with silver trim, two small ivory horns, long hair half tied, a cold unsmiling face, a thin old cord around the left wrist; in armour: pale silver scale armour, a gold hair crown, a halberd-length sky-piercing lance on his back.",
+      "variants": ["white_robe_ep64_ep98", "silver_armour_ep25-28_ep57-63", "new_armour_ep54-56", "wounded_ep63"],
+      "invariant": "left shoulder plate always missing one scale (ep27-56)"
+    },
+    "C09": {
+      "cn": "夜叉",
+      "height": "235cm",
+      "lock": "a huge sea yaksha 235cm tall, blue-grey skin, two short tusks, fish-scale armour, a battle axe taller than a man with wave patterns on its blade",
+      "variants": ["helmet_askew", "soaked"]
+    },
+    "C10": {
+      "cn": "石矶",
+      "height": "175cm",
+      "lock": "a tall woman of about thirty, 175cm, barefoot, her robe made of layered coloured stone plates in violet, teal and ochre, small pebbles braided into her hair, a fastidious manner, always wiping her fingers",
+      "variants": ["holding_new_stone_ep49"]
+    },
+    "C11": {
+      "cn": "杨戬",
+      "height": "172cm",
+      "lock": "a lean Chinese youth of about eighteen, 172cm, silver-grey robe, a third eye shown as a vertical seam on the forehead unless opened (pale gold), a three-pointed double-edged blade",
+      "variants": ["third_eye_open_ep73", "third_eye_open_ep90"]
+    },
+    "C12": {
+      "cn": "雷震子",
+      "height": "160cm, wingspan 220cm",
+      "lock": "a lean youth of about seventeen, 160cm, short brown feather wings on his back with a 220cm span, a slightly beak-like nose, wind-and-thunder patterns on his sleeves, always landing awkwardly",
+      "variants": ["crash_landing", "shedding_feathers_ep82"]
+    },
+    "C13": {
+      "cn": "山精",
+      "height": "105cm",
+      "lock": "a small earth spirit 105cm tall, earth-yellow skin, clothes of layered grass and leaves, round wide eyes, moss-like hair, always holding food",
+      "variants": ["eating", "holding_spear_ep85"]
+    },
+    "C14": {
+      "cn": "姜子牙",
+      "height": "168cm",
+      "lock": "an elderly statesman, 168cm, white beard, dark blue-green robe, a bundle of bamboo slips and a command flag",
+      "variants": ["seated_in_tent"]
+    },
+    "C15": {
+      "cn": "二太子（敖丙兄）",
+      "height": "180cm",
+      "lock": "a composed dragon prince of about twenty, 180cm, deep teal scale armour, two ivory horns slightly longer than his brother's",
+      "variants": ["at_court_only_ep29"]
+    },
+    "C16": {
+      "cn": "老蛟",
+      "height": "head 300cm+",
+      "lock": "a huge old water dragon showing only its head (300cm+) and its tail, blue-black scales with pale silt lines, one horn snapped short, mouth never shown open with teeth",
+      "variants": ["head_only", "tail_only", "submerged"]
+    },
+    "C17": {
+      "cn": "哮天犬",
+      "height": "shoulder 65cm",
+      "lock": "a lean grey-black hound with a red cord collar, shoulder height 65cm, fast as wind",
+      "variants": ["digging", "carrying_sash"]
+    },
+    "C18-A": {
+      "cn": "陈塘关百姓",
+      "lock": "background townsfolk in grey-blue cotton clothes and cloth headbands, kept out of focus",
+      "variants": ["running_flood_ep32"]
+    },
+    "C18-B": {
+      "cn": "虾兵蟹将",
+      "lock": "background shrimp and crab soldiers in shell-plate armour with halberds and crab-claw helmets, kept out of focus",
+      "variants": ["tumbling_shaking_ep22"]
+    },
+    "C18-C": {
+      "cn": "西岐士兵",
+      "lock": "background Western Qi soldiers in ochre short armour carrying letterless banners, kept out of focus",
+      "variants": ["retreating_ep91"]
+    },
+    "C19": {
+      "cn": "城门陌生孩子（100 集伏笔）",
+      "height": "110cm",
+      "lock": "a strange small boy of about six at the town gate, barefoot, wearing a red silk bellyband identical in cut and colour to C01's, standing just outside the lantern light",
+      "variants": ["silhouette_only"]
+    }
+  },
+  "props": [
+    {"code": "P01", "cn": "乾坤圈", "size": "diameter 22cm (young) / 28cm (older), thickness 1.5cm, three string-grooves, plain inside", "motion": "wrist flick, ring leaves the hand, spins back and strikes, returns on its own; flat figure-eight path", "eps": "5, 23, 34, 46"},
+    {"code": "P02", "cn": "混天绫", "size": "vermilion silk 2m long, 0.42m wide, one dark-gold vine border at each end", "motion": "snaps open like a burning cloud, can wrap, can part water; whatever it binds tightens when struggled against", "eps": "20, 21, 27, 55, 87"},
+    {"code": "P03", "cn": "火尖枪", "size": "1.9m shaft, 32cm head with a light hole at the point, red cloth wrapped at the butt", "motion": "three quick thrusts, sparks at the point, butt taps the ground on the recovery", "eps": "42, 64, 80"},
+    {"code": "P04", "cn": "风火轮", "size": "two wheels, 40cm diameter, eight spokes, one ring of flame notches on the rim", "motion": "skims the waves leaving one white vapour trail (also the scene-transition device)", "eps": "40, 43, 64, 90"},
+    {"code": "P05", "cn": "玲珑塔", "size": "seven tiers, 24cm tall, bronze, a small bell at each eave", "motion": "one warm yellow light spreads and shelters the family; a lantern, not an energy dome", "eps": "53, 68, 96, 97"},
+    {"code": "P06", "cn": "方天戟", "size": "2.6m shaft with silver wire wrap, 40cm crescent blade", "motion": "one sweep lifts a half wall of wave 3m high", "eps": "25, 27, 55"},
+    {"code": "P07", "cn": "龙须帕", "size": "silk kerchief, 1m flat, dragon-whisker embroidery", "motion": "thrown out, grows to 3m, tightens as it wraps", "eps": "45"},
+    {"code": "P08", "cn": "石兵", "size": "stone figures 1.6–2.2m with grit at the joints", "motion": "she claps once and the stones stand up, never in neat ranks", "eps": "47"},
+    {"code": "P09", "cn": "三尖两刃刀", "size": "2.2m, three points, 12cm blade width", "motion": "one flick and three turns, the edge light forms a single ring (one line, not a glow)", "eps": "73"},
+    {"code": "P10", "cn": "吸兵镜", "size": "bronze mirror, 60cm diameter, ring patterns on the back, no lettering", "motion": "one flash and weapons leave the hand; every dropped weapon flies toward the mirror", "eps": "86, 87"},
+    {"code": "P11", "cn": "桃木剑吊坠", "size": "peach wood, 6cm, red cord", "motion": "touched when he misses his brothers, once in ep12, ep52 and ep88", "eps": "12, 52, 88"},
+    {"code": "P12", "cn": "糖（糖人/糖块）", "size": "three sugar figures (rabbit, rooster, ball) plus four candied-hawthorn skewers; sugar cube 3cm, translucent amber", "motion": "Aobing swallows one sugar cube together with its paper, the only time, in ep99", "eps": "14, 99"},
+    {"code": "P13", "cn": "铜钱", "size": "round coin with a square hole, 2.5cm, worn bright at the rim", "motion": "clenched in the palm, damp with sweat", "eps": "14"},
+    {"code": "P14", "cn": "旧肚兜", "size": "the same garment as C01's bellyband, washed pale, one stain on the left lapel", "motion": "mother shoves it into his hands, his fingers keep tracing the stain", "eps": "95"},
+    {"code": "P15", "cn": "新草鞋", "size": "straw sandals, 25cm, toes pointing outward", "motion": "never worn", "eps": "50"},
+    {"code": "P16", "cn": "书信（西岐/东海）", "size": "bamboo paper folded in three; East Sea letters sealed with a dragon pattern, Western Qi letters with a square ink-block stamp", "motion": "corner soaked soft by rain; one letter lands on the city wall", "eps": "29, 64, 66, 71, 88"},
+    {"code": "P17", "cn": "桃木剑（兄长的）", "size": "90cm peach wood, cloth-wrapped handle", "motion": "heavier than the door bar", "eps": "9, 10"},
+    {"code": "P18", "cn": "锁着的乾坤弓", "size": "bow 1.4m, tied to the wall with a red cord", "motion": "set dressing only, never taken down", "eps": "17"},
+    {"code": "P19", "cn": "界碑", "size": "stone, 60cm, the inscription area is an ink block", "motion": "half buried, one corner under grass", "eps": "94"},
+    {"code": "P20", "cn": "黑柱", "size": "stone pillar 4.5m tall, 0.8m across, concentric ring carving, one dull red vein", "motion": "when the pillar falls the array disperses", "eps": "89-91"}
+  ],
+  "beats": {
+    "T01": "城门的灯（远处一粒火，走近成一盏灯）— 切进陈塘关",
+    "T02": "风火轮拖出的白汽 — 切进乾元山",
+    "T03": "海风与潮线 — 切进东海与九湾河"
+  },
+  "h3": {
+    "modes": {
+      "T2VA": {"images": 0, "note": "text only, ambient or transition fills"},
+      "I2VA": {
+        "images": 1,
+        "role": "the image must be exactly the 0.00-second frame, not a scene reference",
+        "instruction": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced."
+      },
+      "FL2VA": {
+        "images": 2,
+        "role": "first frame at 0.00 plus last frame at S.SS; same camera, same light, same framing, only the action differs",
+        "instruction": "How the reference pictures align with the target video — Picture 1 (from Shot 1) aligns with the 0.00-second mark of the target video; Picture 2 (from Shot N) aligns with the S.SS-second mark of the target video."
+      },
+      "L2VA": {
+        "images": 1,
+        "role": "the image is the last frame at S.SS; the whole shot converges onto it — used for every episode-end hook",
+        "instruction": "How the reference pictures align with the target video — <Picture 1> (from [Shot N]) aligns with the S.SS-second mark of the target video."
+      },
+      "Ref2VA": {
+        "images": "N, 6 recommended maximum",
+        "role": "images define <Subject> only, never a frame; six sections required"
+      }
+    },
+    "angle_roles": {
+      "A": "front wide establishing shot — locks layout, horizon and main vertical line; used as I2VA origin and scale check",
+      "B": "45-degree medium shot or over-the-shoulder — locks relative positions and depth; used for dialogue and Arc starts",
+      "C": "85mm detail close-up — locks props, texture and hook objects; used for L2VA end frames",
+      "R": "reverse angle, same axis 180 degrees — only where a character turns back; without it the model invents a new location"
+    },
+    "reverse_angle_scenes": ["S01-1", "S02-1", "S04-1", "S06-3", "S10-1", "S12-2"],
+    "camera_to_framing": {
+      "push_in": "subject slightly small, 15% margin on all sides",
+      "pull_out": "subject slightly large, keep the info that will be revealed at the edges",
+      "pan_tilt": "the frame holds only the start; the end position must already exist in the same anchor image",
+      "truck_tracking": "subject on the left or right third with empty space ahead",
+      "arc": "start on the 45-degree B angle, never the front A angle",
+      "static": "use A or B with rule-of-thirds, no margin"
+    },
+    "label_policy": "scene three angles = one <Subject>; character sheet = one <Subject>; prop = one <Subject>; only composed shot frames become <Picture N>",
+    "conflicts": {
+      "text": "quote-marked text is rendered into the picture; never quote on-screen text, keep ink blocks and the no-lettering negative",
+      "lip_sync": "voiceover shots must state that on-screen lips stay closed",
+      "beats": "max 3 action beats per generation; split longer actions into two segments with their own keyframes"
+    },
+    "shot_frame_steps": [
+      "pick base angle A/B/C/R plus state variant, one scene only",
+      "place character from the four-view at the scaled height, feet on the ground contact line",
+      "rework at 0.35-0.5 strength only, never above 0.8",
+      "measure three known dimensions and verify the three fixed landmarks",
+      "store as epNNN_sNN.png and log the label in the storyboard",
+      "build the last frame from the same anchor image, changing only the action"
+    ]
+  },
+  "batches": [
+    {"batch": 1, "images": 18, "eps": "bootstrap", "priority": "P0", "content": "style swatch 3 + transitions T01-T03 + C01/C01b/C02/C03/C04/C07/C08 sheets + P01-P05"},
+    {"batch": 2, "images": 58, "eps": "1-20", "priority": "P0", "content": "S01-1/2/3/4, S02-1/2/3, S03-1/2/3, SKY-1 all angles + 16 state variants + C05/C06/C18-A + P11/P12/P13/P18"},
+    {"batch": 3, "images": 44, "eps": "15-65", "priority": "P1", "content": "S04-1/2/3, S05-1/2, S07-1/2, S08-1 all angles + 13 state variants + C09/C10/C15/C16 + P06/P07"},
+    {"batch": 4, "images": 45, "eps": "38-75", "priority": "P1", "content": "S06-1..5, S09-1, S10-1/2 all angles + 12 state variants + C11/C12/C13/C17 + P08/P09/P19"},
+    {"batch": 5, "images": 41, "eps": "67-100", "priority": "P2", "content": "S11-1/2/3, S12-1/2, S13-1 all angles + 11 state variants + C01c/C14/C18-B/C18-C/C19 + P10/P14/P15/P16/P17/P20"}
+  ],
+  "open_issues": [
+    "S13 was declared but never used; assigned to the harbour pier (eps 57-64). Backfill appendix A.",
+    "S08 city-wall set merged into S01-3 (only one prop shot in ep17).",
+    "Jinzha/Muzha colours conflict with the V2.1 script (white/green); this file keeps pale blue / light brown to avoid clashing with Aobing and the shallows.",
+    "Nezha's age jump 95cm to 140cm is a hard cut at rebirth; the forehead mark changes shape in the same position to keep recognition.",
+    "Aobing's missing shoulder scale must stay visible from ep27 to ep56."
+  ]
+}
