@@ -1,0 +1,102 @@
+{
+  "style_en": "2D cel-shaded Chinese mythic fantasy animation, fine dark ink outlines of even weight, flat colour fills with one hard-edged shadow layer, hand-painted watercolour skies, very subtle rice-paper grain, no 3D rendering, no photoreal skin, no lens flare, no chromatic bloom; character designs, colours, proportions and line weight must match the supplied reference sheets exactly.",
+  "negative_en": "NEGATIVE: no on-screen text of any kind — no subtitles, no captions, no lower-third titles, no watermarks and no signs or floating letters anywhere in frame; no modern objects, no plastic, no photorealistic skin or 3D render, no lens flare or bloom, no Japanese anime eye sparkles, no extra characters beyond those described, no adult-proportioned child, no full-body dragon, no change to the fixed landmarks of this scene.",
+  "settings": {
+    "S02-1": {
+      "en": "a Chinese courtyard mansion's open inner court, grey brick paving in a herringbone pattern running diagonally north-east, six vermilion columns around a covered walkway, a three-step stone stair to the main house at the top third with a worn hollow on the second step, a stone well with rope marks on the rim on the west side, an old plum tree leaning south-east with one empty birdcage hanging in its branches, a bamboo laundry pole on two stands on the east side, a low grey brick wall at the south edge, whitewashed walls, warm late-afternoon sunlight.",
+      "cn": "S02-1 李府·庭院天井——青砖缝永远斜向东北；三级石阶在画面上方三分之一，第二级踏步有一道踩出的凹痕；石井＋老梅树（枝上挂一只空鸟笼）在左；晾衣杆在东；南缘矮墙 2.0m；白墙。共用基准为午后暖光，夜景与红光由对应 light 串改写。"
+    },
+    "S02-2": {
+      "en": "a covered wooden corridor in a Chinese courtyard mansion in one-point perspective, vermilion columns on both sides at 2.4m spacing with round stone plinths, three red lanterns hanging overhead, paper-lattice windows at the far end, grey brick floor, afternoon light cutting across the corridor in warm bars.",
+      "cn": "S02-2 李府·回廊——一点透视，消失点在画面 48% 高度略偏右；左右朱柱柱距 2.4m、柱底圆鼓石础；头顶只许三盏红灯笼；廊尽头一扇纸窗；廊下阴影压住画面下半部。共用基准为午后斜光，夜戏由对应 light 串改写。"
+    },
+    "S03-1": {
+      "en": "a formal Chinese hall interior, dark wooden beams overhead, a long altar table 2.4m wide across the middle of frame, a five-piece celadon tea set on it with two chipped cup rims, two high-backed chairs set symmetrically, a six-panel folding screen behind painted with sea waves and clouds with a crack running through the middle panel, a dark plaque with an ink block on the beam, lattice windows with paper panes, soft indoor daylight.",
+      "cn": "S03-1 李府·内堂——长条案 2.4m 横贯画面中段（案上固定五件青瓷、其中两只杯口有缺口）；案后六扇屏风，正中一扇有一道裂痕；两把高背椅对称；梁上悬一块只有墨块与金边的匾（不许出字）。共用基准为日间室内柔光，夜戏与红光由对应 light 串改写。"
+    },
+    "SKY-1": {
+      "en": "high above a coastal town, three layered cloud banks, a flat cloud platform at the lower centre whose edge curls into a cloud tongue, the town's grey roofs reduced to thumbnail size far below, one tiny red lantern glowing at 40% of frame width on the lower left, cold blue high-altitude light with warm cloud rims.",
+      "cn": "SKY-1 云端高空——三层云海（下暗、中白、上透）；下中一块平云台（边缘一道翻卷云舌，宽 3m，可站一人）；下方城屋顶缩成指甲盖大小（不许画清楚）；一点红灯笼在画面左下 40%。"
+    }
+  },
+  "characters": {
+    "C01": {
+      "en": "a chubby Chinese toddler of about three, 95cm tall, barefoot, a cream-white short-sleeved under-shirt with a plain cloth tie at the back, a vermilion diamond-shaped bellyband with one thin pale-gold geometric border on it, indigo loose knee-length shorts, a wide matte-gold bangle on the right wrist, a thin gold anklet on the right ankle, a long vermilion silk sash wound once at the waist with both ends hanging down, black hair in two small top-knots tied with thin red cords, round amber eyes with two fixed highlight dots at their lower edge, a small three-petal vermilion flame mark at the centre of the forehead",
+      "cn": "哪吒（幼年 C01，95cm）：米白短袖内衫＋朱砂红菱形肚兜＋靛青及膝短裤，右腕宽金镯、右脚踝细金环，腰缠朱红长绫，发式两枚小揪揪以红绳扎，琥珀圆眼、眼内两点固定高光，额间三瓣朱红火焰纹，赤脚。"
+    },
+    "C02": {
+      "en": "a stern Chinese man of about forty, 180cm, low heavy brows, a neat short beard, hair in a topknot with a black crown, a dark indigo robe with an iron-grey mountain-pattern half armour over the chest and shoulders, a leather belt with a dull bronze buckle, a plain black-sheathed straight sword at his hip",
+      "cn": "李靖（C02，180cm）：深靛长袍＋铁灰山纹半甲＋皮腰带（暗铜扣）＋黑鞘直剑＋短须＋黑冠顶髻。"
+    },
+    "C03": {
+      "en": "a gentle Chinese woman of about thirty-five, 165cm, a soft round face, hair in a low bun with a plain silver hairpin, a dusty-pink crossed-collar robe with a cream inner collar, a deep brown leather belt and matching wrist wraps, deep grey-green trousers",
+      "cn": "殷夫人（C03，165cm）：藕荷色交领长衣＋米白内领＋深褐皮腰带与护腕＋深灰绿裤＋银簪低髻，温和面容。"
+    },
+    "C04": {
+      "en": "an ancient Taoist master, 170cm, slightly stooped, wide-sleeved white robe with pale silver cloud embroidery, long white beard, a jade hairpin, a gourd at the waist, cloth sandals, a white horsehair whisk in his right hand",
+      "cn": "太乙真人（C04，170cm、微驼）：月白宽袖道袍＋银云纹＋长白须＋玉簪＋腰挂葫芦＋布鞋＋右手白拂尘。"
+    },
+    "MAID": {
+      "en": "a background household maid in pale lotus-white and grey-green cotton clothes with a cloth headband, her face kept out of focus and her eyes drawn as two plain dots",
+      "cn": "侍女（群像口径，虚焦）：藕白＋灰绿棉布衣＋布头巾，不对脸（眼睛只画两点）。"
+    },
+    "STEWARD": {
+      "en": "a background elderly steward of about sixty in a deep-brown and grey cotton robe with a cloth headband and a ring of keys at his waist, his face kept out of focus and his eyes drawn as two plain dots",
+      "cn": "老管家（群像口径，虚焦）：深褐＋灰棉袍＋布头巾＋腰间一串钥匙，不对脸（眼睛只画两点）。"
+    }
+  },
+  "lights": {
+    "S02-2_night": {
+      "en": "at night the three red lanterns are the only light source, casting three warm pools on the round stone plinths, the lower half of frame in cool blue moonlight, the far paper-lattice window unlit",
+      "cn": "夜：三盏红灯笼是唯一光源，柱础上落三团暖光；画面下半部冷蓝月光；廊尽头纸窗不亮。"
+    },
+    "S02-1_night": {
+      "en": "at night the three red lanterns throw warm bars across the grey brick paving, the whitewashed walls in cool blue moonlight, the plum tree casting long soft shadows, the worn hollow on the second step catching a thin rim of light",
+      "cn": "夜：三盏红灯笼把暖光一道道打在青砖上；白墙偏冷蓝月光；梅树影子长而软；第二级凹痕有一线薄光。"
+    },
+    "S02-1_day": {
+      "en": "low warm late-afternoon sunlight raking in from the west, long soft shadows thrown by the columns and the plum tree across the herringbone brick, the whitewashed walls a warm cream, the six vermilion columns lit bright along one edge",
+      "cn": "傍晚低角暖光从西侧斜打进来；柱影与梅树影长而软地铺在青砖上；白墙偏暖米色；六根朱柱被照亮一侧边缘。"
+    },
+    "SKY": {
+      "en": "cold blue high-altitude light with warm cloud rims, the town far below in shadow",
+      "cn": "高空冷蓝光，云边暖；下面那座城在阴影里。"
+    }
+  },
+  "music": {
+    "M_low": "A low sustained string note at a slow tempo, no melody, held through the shot and fading at the very end.",
+    "M_quiet": "Sparse low strings at a slow tempo with one sustained flute note over them, the volume dropping toward the end of the shot.",
+    "M_drone": "A single low drone at a slow tempo with a soft tremolo on the low strings, rising slightly and then holding.",
+    "M_heart": "One low drumbeat at a slow tempo under sustained strings, the drum stopping before the end of the shot.",
+    "M_tender": "Warm mid-register strings at a slow tempo, a quiet two-note phrase repeated, no percussion.",
+    "M_cut": "One low struck string note at a slow tempo, cutting off immediately after the crack and leaving silence.",
+    "M_hook": "A short rising phrase on low strings at a slow tempo, one struck bell tone at the top of the phrase, then both fade out."
+  },
+  "speakers": {
+    "S1": {
+      "who": "The narrator",
+      "voice": "a warm slow-paced storyteller with a clear gentle voice",
+      "mode": "voiceover"
+    },
+    "S2": {
+      "who": "The old steward",
+      "voice": "an elderly male voice, low and careful",
+      "mode": "sync"
+    },
+    "S3": {
+      "who": "Li Jing",
+      "voice": "a low restrained adult male voice, speaking slowly",
+      "mode": "sync"
+    },
+    "S4": {
+      "who": "The maid",
+      "voice": "a young female voice, high and breathless",
+      "mode": "sync"
+    },
+    "S5": {
+      "who": "Lady Yin",
+      "voice": "a gentle female voice, weak and unsteady",
+      "mode": "sync"
+    }
+  }
+}

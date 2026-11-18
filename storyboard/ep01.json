@@ -1,0 +1,1181 @@
+{
+  "ep": "01",
+  "title": "三年怀胎，灵珠降世",
+  "series": "哪吒英文启蒙动画",
+  "out_dir": "EP01_三年怀胎灵珠降世",
+  "project_name": "nezha_ep01",
+  "comfyui_dir": "D:/ComfyUI",
+  "output_base_dir": "D:/msp/001-nz-db/成片",
+  "video": {
+    "width": 1184,
+    "height": 672,
+    "default_seconds": 8,
+    "base_steps": 8,
+    "refine_steps": 3
+  },
+  "words_new": [
+    "baby",
+    "mom",
+    "dad"
+  ],
+  "words_plan": "This is…",
+  "cum_words": 3,
+  "reference_images": [
+    "EP01_C01_nezha_child.png",
+    "EP01_C02_lijing.png",
+    "EP01_C03_lady_yin.png"
+  ],
+  "local": {
+    "settings": {
+      "S03-1R": {
+        "en": "a Chinese mansion bedroom at night, a low wooden couch with a thin quilt along the left side, a narrow side cot facing it, a low oil-lamp stand between them, dark wooden beams overhead, a six-panel folding screen on the right carved with sea waves and clouds, lattice windows with paper panes, grey brick floor",
+        "cn": "S03-1R 内堂卧房——左侧矮榻（薄被）、对面一张窄小榻、中间矮几上一盏油灯、上方深色木梁、右侧六扇海浪云纹屏风、格窗纸面、青砖地。"
+      },
+      "INS-1": {
+        "en": "a door-seam insert, the two heavy dark wooden leaves of the mansion's main door clamped shut and meeting in one vertical seam dead centre, a heavy wooden threshold across the lower quarter, two old bolt scars on the leaf faces, nothing else legible",
+        "cn": "INS-1 门缝插入镜——两扇厚重深木门紧闭、门缝垂直居中、门槛横在下方四分之一、门面两道旧门栓印痕，除此不留别的东西。"
+      }
+    },
+    "lights": {
+      "S03-1R_lamp": {
+        "en": "night interior lit only by one oil lamp on a low stand, a warm pool on the couch and the cot, the rest of the room in deep cool shadow, one soft warm edge on the screen panels",
+        "cn": "夜：只有矮几上一盏油灯，榻面与小榻各落一团暖光，其余沉在深冷阴影里，屏风上留一道软暖边。"
+      },
+      "S03-1R_burst": {
+        "en": "hard saturated red light flooding the whole room from the door side, every object throwing a long hard shadow away from it, the brick floor baked red, no other light source left",
+        "cn": "门一侧打进来的硬质饱和红光，灌满整间屋子；每件东西都朝反方向拖出长硬影；砖地被烤成红色；其余光源全被压掉。"
+      },
+      "S02-1_red_step": {
+        "en": "night, one hard red band leaking out from under the main doors and running down the three stone steps, the brick apron still dark",
+        "cn": "夜：正房门底漏出一道硬红光，顺着三级石阶往下淌；阶下砖地仍暗。"
+      },
+      "S02-1_red_full": {
+        "en": "night, hard red light covering the whole courtyard floor, the whitewashed walls turned red, the three lantern bodies pressing thin dark shadows flat on the wall, no cool moonlight left",
+        "cn": "夜：红光铺满整片院子，白墙被映成红，三盏灯笼在墙上压成薄薄黑影，冷月光已被吃尽。"
+      },
+      "INS_red": {
+        "en": "near-total darkness with one thin hard red line inside the door seam, the wood around it still unlit",
+        "cn": "近全黑，只有门缝里一线硬红光，缝外木面仍不吃光。"
+      }
+    },
+    "characters": {
+      "SERVANT": {
+        "en": "a background household servant in plain grey cotton clothes with a cloth headband, his face kept out of focus and his eyes drawn as two plain dots",
+        "cn": "家丁（群像口径，虚焦）：灰棉布衣＋布头巾，不对脸（眼睛只画两点）。"
+      }
+    }
+  },
+  "shots": [
+    {
+      "seg": "ep01_s01_mom_walk",
+      "part": "开场",
+      "scene": "S02-1",
+      "mode": "i2va",
+      "dur": 5,
+      "visual": "殷夫人一手扶腰在院里慢慢走，衣襟被肚子顶得老高，走到朱柱边停下喘气。",
+      "line": "旁白：这是 mom。",
+      "chars": [
+        "C03"
+      ],
+      "light": "S02-1_day",
+      "action": "Lady Yin stands at the right edge of the courtyard, side-on to the camera, one hand pressed into her lower back and the other spread under the heavy shelf of her belly; she steps forward slowly with short steps, her robe pulled tight across the bump and her skirt sweeping the grey brick, and after four steps she reaches the vermilion column at frame left, stops, drops her shoulders and lets out one long breath, a thin shine of sweat at her temple. Her head stays bowed toward her own belly, her expression a tired small smile, and her lips stay completely closed for the whole shot.",
+      "camera": "The camera holds a static medium shot on a 35mm lens at 1.5 metres height, square to the courtyard, her full body inside frame with air above her head and brick under her feet; she travels from the right third to the left third without the frame changing, and the column stays fixed on the left edge.",
+      "cn_cam": "中景侧向固定机位（35mm，1.5 米高），她从画面右侧走到左侧朱柱，镜头全程不动。",
+      "cn_action": "殷夫人从画面右侧起步，一手扶腰一手托肚，步子小而慢，衣襟随步伐扫过砖地；走到朱柱旁停下，肩膀松下来，喘一口气，额头一层薄汗；她不说话。",
+      "keyframe_first": "Lady Yin side-on in the centre-right of the courtyard, one hand in her lower back, the other under her belly, one foot lifted mid-step, head bowed toward the bump with a tired small smile; dusty-pink crossed-collar robe with cream inner collar, deep brown belt and wrist wraps, deep grey-green trousers, very large pregnancy; herringbone grey brick, six vermilion columns, three-step stair, stone well, old plum tree with one empty birdcage; warm late-afternoon light from frame left; medium side view at 1.5m, 35mm, full body.",
+      "keyframe_last": "",
+      "cn_first": "殷夫人侧身站在天井中，一手按在后腰、一手托着肚子下缘，一只脚刚抬起，低头看自己的肚子，带一点疲惫的笑；藕荷交领长衣被大肚子顶得鼓起；背景是青砖人字纹地面、六根朱柱、三级石阶、石井与挂鸟笼的老梅树；傍晚暖光从左侧；中景侧向、1.5 米高、完整全身。",
+      "cn_last": "",
+      "sfx": "Soft cloth slippers on brick, the rustle of heavy silk, a light evening breeze through the courtyard.",
+      "music": "M_quiet",
+      "dlg": {
+        "spk": "S1",
+        "line": "这是 mom。"
+      },
+      "words": "首现：mom；核心句型 This is…"
+    },
+    {
+      "seg": "ep01_s02_belly_bulge",
+      "part": "开场",
+      "scene": "S02-1",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "侍女端着一盆水走过，眼睛盯着夫人肚子；肚子突然鼓起一块，侍女手一抖，水晃出盆沿。",
+      "line": "旁白：她肚子里，有个 baby。",
+      "chars": [
+        "C03",
+        "MAID"
+      ],
+      "light": "S02-1_day",
+      "action": "The maid stands at frame left holding a wooden basin of water at waist height with both hands, her head turned toward Lady Yin at frame right and her eyes fixed on the belly; Lady Yin stands side-on, belly smooth under the cloth. A hard round bulge then pushes out of the belly at one point, stretching the robe into a dome, and Lady Yin's brows snap down and her mouth opens. The maid's shoulders jump, her head pulls back, and the basin tips forward so that a thin arc of water leaves the rim and hangs in the air; neither woman speaks and both mouths close again at the end.",
+      "camera": "The camera holds a static medium-wide shot on a 35mm lens at 1.4 metres height, the maid in the left third and Lady Yin in the right third with a clear gap of brick between them; the frame does not change and the bulge stays at the same point of the belly.",
+      "cn_cam": "中景固定（35mm，1.4 米高），侍女在左、夫人在右，中间留一段青砖。",
+      "cn_action": "侍女端着满盆水站在左侧，目光一直落在夫人肚子上；夫人侧身站着，肚子平顺；忽然肚子某处顶出一个圆包，衣料被撑起；侍女吓得一抖，木盆前倾，水从盆沿甩出一道弧；两人都不说话。",
+      "keyframe_first": "Frame left the household maid in pale lotus-white and grey-green cotton with a cloth headband, eyes as two plain dots, holding a wooden basin of water at waist height and staring at the woman; frame right Lady Yin standing side-on, belly smooth under the dusty-pink robe, face calm; warm late-afternoon light from frame left; medium-wide at 2m, 35mm, both full body with brick between them.",
+      "keyframe_last": "Same framing and positions: one hard round bulge pushes out of Lady Yin belly at a single point, the robe stretched into a dome, her brows down and lips parted; the maid shoulders up, eyes wide, basin tilted forward with a thin arc of water hanging off the rim; brick, columns and stair unchanged.",
+      "cn_first": "侍女在画面左侧，双手端木盆、水满到盆沿，侧头盯着右侧夫人的肚子；夫人右侧站定、肚子平顺、神情放松；两人之间一段青砖；暖光从左；中景固定。",
+      "cn_last": "同一机位、同一光线；夫人肚子顶出一个圆鼓包、衣料绷成弧面，她眉头一皱、嘴张开；侍女肩膀一耸、木盆前倾，一道水刚离盆沿、悬在空中。",
+      "sfx": "Water sloshing inside the basin, cloth pulled tight, a sharp intake of breath.",
+      "music": "M_quiet",
+      "dlg": {
+        "spk": "S1",
+        "line": "她肚子里，有个 baby。"
+      },
+      "words": "首现：baby"
+    },
+    {
+      "seg": "ep01_s03_dad_listen",
+      "part": "开场",
+      "scene": "S02-1",
+      "mode": "i2va",
+      "dur": 5,
+      "visual": "李靖在夫人身边蹲下，把耳朵贴到她肚子上听。",
+      "line": "旁白：这是 dad。他在听。",
+      "chars": [
+        "C02",
+        "C03"
+      ],
+      "light": "S02-1_day",
+      "action": "Li Jing crouches down on both heels beside Lady Yin, one hand braced flat on his knee, and lowers his head until his ear is a hand width from her belly; he then closes the last gap, presses his ear flat against the cloth, shuts his eyes and lets his forehead smooth out. Lady Yin keeps her feet planted, lays one hand lightly on the back of his head and looks down at him; the belly lifts and settles once against his ear. Neither of them speaks and both mouths stay closed.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.1 metres height, both figures inside frame from the knees up, Lady Yin standing above him at frame centre and his dark indigo back and crown filling the lower left.",
+      "cn_cam": "中近景（50mm，1.1 米低机位），两人同框，从膝盖以上。",
+      "cn_action": "李靖蹲下，把头慢慢凑过去，耳朵贴上夫人的肚子，眼睛闭上、眉头松开；夫人的手轻轻落在他后脑上，低头看他；肚子在他耳边轻微起伏；两人都不开口。",
+      "keyframe_first": "Li Jing crouched on both heels beside Lady Yin, one hand flat on his knee, ear still a hand width from her belly and already closing his eyes; dark indigo robe with iron-grey mountain-pattern half armour, black crown over a topknot, neat short beard, black-sheathed sword at his hip; Lady Yin standing above him side-on with one hand falling toward the back of his head; warm light from frame left; medium at 1.1m, 50mm, both from the knees up.",
+      "keyframe_last": "",
+      "cn_first": "李靖蹲在夫人身边、两只脚跟落地、一手撑在膝上，耳朵离肚子还有一掌、正要凑过去，眼睛已经在闭；夫人侧身站着，一手轻搭在他后脑，低头看他；中近景从膝盖以上。",
+      "cn_last": "",
+      "sfx": "Fabric brushing, quiet breathing, a faint breeze across the courtyard.",
+      "music": "M_tender",
+      "dlg": {
+        "spk": "S1",
+        "line": "这是 dad。他在听。"
+      },
+      "words": "首现：dad；核心句型 This is…"
+    },
+    {
+      "seg": "ep01_s04_kick_fall",
+      "part": "开场",
+      "scene": "S02-1",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "肚子里又是一脚，李靖猛地仰头、一屁股坐在地上，两手撑住砖地。",
+      "line": "旁白：baby 踢了他一脚。",
+      "chars": [
+        "C02",
+        "C03"
+      ],
+      "light": "S02-1_day",
+      "action": "Li Jing kneels with his ear flat on the belly, eyes shut. The belly jolts once against his ear, and his whole body kicks backwards: his head snaps up, his hands leave his knee, his weight drops onto his heels and he lands sitting on the brick, both palms slapping down flat behind him to keep himself upright, the black crown knocked a little crooked and the sword sheath swinging round against his thigh. Lady Yin turns her upper body down toward him with one hand still on her belly and her mouth open; nobody speaks.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.1 metres height; the frame does not chase him down, so the bottom of the image takes his seated body and Lady Yin stays in the upper half.",
+      "cn_cam": "中近景固定（50mm，1.1 米高），两人同框，镜头不下摇追他。",
+      "cn_action": "李靖耳朵贴在肚子上，肚子微微一顶，他整个人往后一弹，仰头、手离膝、屁股着地，两手撑在砖上稳住；黑冠歪了一边；夫人上身转过来看他，嘴微张；无人说话。",
+      "keyframe_first": "Li Jing crouched on both heels with his ear pressed flat against Lady Yin belly, one hand on his knee, eyes closed, perfectly still, the black sheath hanging straight at his hip; Lady Yin standing above him side-on, one hand on his head; medium at 1.1m, 50mm, both from the knees up.",
+      "keyframe_last": "Li Jing sitting on the grey brick, both palms flat on the paving behind him, legs folded in front, head snapped up, eyes wide, mouth open, black crown slightly askew, the sword sheath swung against his thigh; Lady Yin has turned her upper body down toward him, one hand still on her belly, mouth open; same framing.",
+      "cn_first": "李靖蹲着、耳朵贴紧夫人肚子、眼睛闭着、一手撑膝；夫人站着、一手搭在他后脑；中近景。",
+      "cn_last": "李靖坐在地上、两手平撑在身后的砖上、上身倒着、头仰起、眼睛瞪大、嘴张开、黑冠歪了一点、剑鞘甩到腿边；夫人上身转向他、一只手还按着肚子、嘴微张。",
+      "sfx": "A muffled thump as he lands on the brick, cloth scraping, a startled breath.",
+      "music": "M_heart",
+      "dlg": {
+        "spk": "S1",
+        "line": "baby 踢了他一脚。"
+      },
+      "words": "复习：baby；句型 This is…"
+    },
+    {
+      "seg": "ep01_s05_maid_laugh",
+      "part": "开场",
+      "scene": "S02-1",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "侍女忍不住笑出声，李靖爬起来拍衣摆，装作没事；榻那边的人已在画外。",
+      "line": "（无台词·笑声与拍衣声）",
+      "chars": [
+        "C02",
+        "MAID"
+      ],
+      "light": "S02-1_day",
+      "action": "Li Jing pushes himself up off the brick, stands, and brushes the front of his robe down twice with both palms, chin lifted and eyes deliberately aimed at nothing, the crown straightened; the sword hangs neat again at his hip. At frame left the maid has one hand clamped over her mouth, shoulders up around her ears and body bent with laughter, and the low couch edge at frame right stands empty in the background. Nobody speaks.",
+      "camera": "The camera holds a static medium shot on a 35mm lens at 1.3 metres height with both figures inside the frame, the maid in the left third, Li Jing in the centre and the empty couch edge at the right edge.",
+      "cn_cam": "中景固定（35mm，1.3 米高），侍女左、李靖中、夫人右。",
+      "cn_action": "李靖从地上撑起来站直，两手在袍前襟上拍两下抹平褶皱，下巴一抬、眼睛故意看远处；侍女在左侧捂嘴，肩膀一抖一抖；右侧只有空着的榻沿；没有人说话。",
+      "keyframe_first": "Li Jing sitting on the brick with both palms behind him and his head still up; at frame left the maid with one hand already lifting toward her mouth; the couch edge behind them empty; medium-wide at 1.3m, 35mm, two figures inside frame.",
+      "keyframe_last": "Li Jing standing upright, both hands patting down the front of his dark indigo robe, chin lifted, eyes blank and forward, crown straight, sword neat at his hip; the maid at frame left with a hand clamped over her mouth and shoulders up, bent with laughter; the couch edge empty behind them.",
+      "cn_first": "李靖坐在地上、两手撑在身后；侍女左侧站着、一只手已经抬到嘴边；身后榻沿空着；中景两人同框。",
+      "cn_last": "李靖已站直、两手拍着袍前襟、下巴抬起、眼睛故意看前方、黑冠扶正；侍女一手捂嘴、肩膀耸到耳根、身子弯着。",
+      "sfx": "Two soft pats on heavy silk, stifled laughter, a woman's light chuckle.",
+      "music": "M_quiet",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s06_smile_to_pain",
+      "part": "开场",
+      "scene": "S02-1",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "夫人扶着柱子笑，笑到一半突然僵住，皱眉、按住肚子。",
+      "line": "旁白：这一胎，住了三年。",
+      "chars": [
+        "C03"
+      ],
+      "light": "S02-1_day",
+      "action": "Lady Yin leans one shoulder against the vermilion column at frame right and laughs, eyes crinkled shut, one hand flat on the column and the other resting on top of her belly. Halfway through the laugh it stops: the corners of her mouth freeze, her brows draw hard together, a small vertical crease appears between her eyes and a thin line of sweat shows at her temple. She takes the hand off the column and clamps both hands flat on her belly, fingers spread and pressing in, and bends slightly forward away from the column. She makes no word, only one sharp breath.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.4 metres height, her full body inside frame with the column running up the right edge; no reframing between the laugh and the pain.",
+      "cn_cam": "中景固定（50mm，1.4 米高），朱柱压在画面右缘。",
+      "cn_action": "夫人靠在朱柱上笑，肩膀跟着抖；笑到一半忽然停住，嘴角僵住，眉毛拧起来，一只手从柱子上收回、和另一只手一起按在肚子上，指头压进衣料；她微微弯下腰；只有一口抽气。",
+      "keyframe_first": "Lady Yin with one shoulder against a vermilion column at frame right, laughing openly with her eyes crinkled shut, one hand flat on the column and the other on top of her very large belly; dusty-pink crossed-collar robe, cream inner collar, silver hairpin in a low bun; warm light from frame left; medium at 1.4m, 50mm, full body with the column up the right edge.",
+      "keyframe_last": "Same framing, same column, same figure: the laugh gone, brows drawn hard together, lips pressed thin, a vertical crease between the eyes, a thin line of sweat at her temple; both hands clamped flat on her belly with fingers spread and pressing in, shoulders hunched, body bent slightly away from the column.",
+      "cn_first": "夫人一肩靠着朱柱、仰头笑、眼睛眯成缝、一手按在柱上、一手搭在肚子上；中景。",
+      "cn_last": "同一姿势；笑已经没了、眉毛拧紧、嘴唇压成一条线、眉心一道竖纹、鬓角一层汗；两手都按在肚子上、手指张开压进衣料；上身微微前倾离柱。",
+      "sfx": "A laugh that dies away, one sharp intake of breath, cloth pressed tight.",
+      "music": "M_drone",
+      "dlg": {
+        "spk": "S1",
+        "line": "这一胎，住了三年。"
+      },
+      "words": "复习：baby（隐含）"
+    },
+    {
+      "seg": "ep01_s07_midnight_wake",
+      "part": "生产",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "半夜同屋：夫人躺在榻上突然弓起身抓肚子；旁边小榻上合衣打盹的李靖一激灵坐直。",
+      "line": "旁白：这天半夜，mom 疼醒了。",
+      "chars": [
+        "C03",
+        "C02"
+      ],
+      "light": "S03-1R_lamp",
+      "action": "In the dark room Lady Yin lies asleep on the low couch at frame left under a thin quilt, her face slack, while Li Jing lies fully clothed on the narrow cot at frame right with one arm folded behind his head and his eyes shut, the black sheath leaning against the cot leg. Lady Yin curls up first: her knees draw high, both hands clamp onto her belly through the robe, the quilt slides off onto the floor, her hair pulls loose from the bun and her face screws up with her mouth open. Only then does Li Jing snap upright, one hand braced on the cot edge, the other reaching toward her, bare feet hitting the floor; the lamp flame is dragged sideways by the movement. Neither speaks.",
+      "camera": "The camera holds a static wide shot on a 35mm lens at 1.4 metres height, the couch at frame left, the cot at frame right and the oil lamp on a low stand between them; both sleepers stay inside frame for the whole shot.",
+      "cn_cam": "全景固定（35mm，1.4 米高），左榻、右小榻、中间一盏油灯。",
+      "cn_action": "夜深，两人都睡着；夫人的身体忽然蜷起来，膝盖抬高，两手抓向肚子，薄被滑落到地上，头发散开，脸皱紧、嘴张开；右侧李靖一激灵坐直，一手撑住榻沿、一手伸过去；油灯火苗被风带斜；两人都不说话，只有急促呼吸。",
+      "keyframe_first": "Night interior: Lady Yin asleep on the low couch at frame left under a thin quilt, face slack and calm, very large belly under the cloth; Li Jing fully clothed in dark indigo robe on the narrow cot at frame right, one arm behind his head, eyes closed, black sheath against the cot leg; one oil lamp between them, the rest of the room in deep cool shadow; wide at 1.4m, 35mm.",
+      "keyframe_last": "Same room and framing: Lady Yin curled with knees drawn high, both hands clamped on her belly, quilt thrown on the floor, hair loose, face screwed up and mouth open; Li Jing bolt upright on the cot, one hand on the cot edge, the other reaching to her, eyes wide, bare feet on the floor, sword left behind; lamp flame dragged sideways.",
+      "cn_first": "深夜内堂卧房；左侧矮榻上夫人盖薄被、侧身睡、脸松弛；右侧窄小榻上李靖和衣躺着、一臂枕在脑后、眼睛闭着、黑鞘靠在榻腿；中间矮几上一盏油灯；全景。",
+      "cn_last": "夫人蜷起、双膝抬高、两手死按肚子、薄被甩到地上、头发散出髻、脸扭曲嘴张开；李靖已坐直、一手撑榻沿、一手伸向她、眼睛睁大、赤脚落地、剑留在榻上；灯火被带得斜了。",
+      "sfx": "A quilt sliding to the floor, sharp ragged breathing, the cot frame creaking.",
+      "music": "M_heart",
+      "dlg": {
+        "spk": "S1",
+        "line": "这天半夜，mom 疼醒了。"
+      },
+      "words": "复习：mom"
+    },
+    {
+      "seg": "ep01_s08_hold_shoulder",
+      "part": "生产",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "李靖扑到榻边扶住她肩膀，看她脸、看肚子，随即扭头看向房门。",
+      "line": "旁白：dad 知道，要生了。",
+      "chars": [
+        "C02",
+        "C03"
+      ],
+      "light": "S03-1R_lamp",
+      "action": "Li Jing sits on the edge of the couch beside her, bent right over her, one hand flat and steady on her shoulder and the other braced on the mattress. He looks at her face first, then down at the belly her hands are clamped on, his throat moves once, and then his head turns toward the closed door at frame right and his jaw sets hard. Lady Yin looks up at him, soaked with sweat, both hands still on her belly. Neither of them speaks.",
+      "camera": "The camera holds a static medium close shot on a 50mm lens at 1.3 metres height, both of them from the waist up, the lamp glow behind them and the dark door at the right edge.",
+      "cn_cam": "中近景（50mm，1.3 米高），两人半身，门在画面右缘。",
+      "cn_action": "李靖俯身在榻边，一手稳稳扶着夫人的肩；他先看她的脸，再低头看她按着的肚子，喉头动了一下，然后头转向画面右侧的房门，下颚绷紧；夫人仰头看着他；两人都不说话。",
+      "keyframe_first": "Li Jing sitting on the edge of the couch bent over Lady Yin, one hand flat on her shoulder and the other on the mattress, his face close to hers and still turned to her; Lady Yin looking up at him, sweaty, hair loose, both hands on her belly; night lamp glow; medium close at 1.3m, 50mm, both from the waist up with the dark door at the right edge.",
+      "keyframe_last": "",
+      "cn_first": "李靖坐在榻沿、俯身、一手扶住夫人肩膀、一手撑在榻上；夫人仰头看他、满脸汗、两手还按着肚子；他目光还停在她脸上；中近景半身。",
+      "cn_last": "",
+      "sfx": "Ragged breathing, cloth shifting, the lamp wick popping once.",
+      "music": "M_heart",
+      "dlg": {
+        "spk": "S1",
+        "line": "dad 知道，要生了。"
+      },
+      "words": "复习：dad"
+    },
+    {
+      "seg": "ep01_s09_shout_door",
+      "part": "生产",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "他起身走到门前，一把拉开门，冲廊下大喊。",
+      "line": "李靖：管家！快请接生婆！",
+      "chars": [
+        "C02"
+      ],
+      "light": "S03-1R_lamp",
+      "action": "Li Jing stands at the closed double door with one hand flat on the door frame, his body half turned toward the corridor outside, the collar of his dark indigo robe hanging open over the iron-grey armour and a black sheath in his other hand. He hauls the left leaf open, leans out into the corridor, the cords in his neck standing up, and shouts his line with his mouth opening wide on every syllable and closing fully after the last one.",
+      "camera": "The camera holds a static medium shot on a 35mm lens at 1.5 metres height, him full body at frame left and the door filling the right half; the door leaf swings toward the camera but the frame itself never moves.",
+      "cn_cam": "中景（35mm，1.5 米高），门在画面右半，镜头不动。",
+      "cn_action": "李靖起身两步到门前，一手抓住门框、另一手拉开门扇；门一开他朝廊下探身，脖子上的筋绷起，喊出那句台词，口型与每个字严丝合缝，喊完嘴唇合上。",
+      "keyframe_first": "Li Jing standing at the closed double door, one hand flat on the door frame, body half turned toward the corridor, the collar of his dark indigo robe hanging open over the iron-grey half armour, mouth already opening to shout, the black sheath in his other hand; night lamp glow; medium at 1.5m, 35mm, him at frame left and the door filling the right half.",
+      "keyframe_last": "",
+      "cn_first": "李靖站在紧闭的房门前、一手按在门框上、上身半转向门外、领口敞开露出铁灰甲、嘴已经张开要喊、另一手提着剑鞘；门还关着。",
+      "cn_last": "",
+      "sfx": "The wooden door leaf pulled open, his shout rolling down the corridor, night air.",
+      "music": "M_drone",
+      "dlg": {
+        "spk": "S3",
+        "line": "管家！快请接生婆！"
+      },
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s10_steward_run",
+      "part": "生产",
+      "scene": "S02-2",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "老管家从廊那头提着袍角跑来，边跑边回头招手叫后面的人。",
+      "line": "管家：来了！都备着！",
+      "chars": [
+        "STEWARD"
+      ],
+      "light": "S02-2_night",
+      "action": "Far down the corridor, small near the vanishing point, the old steward comes running toward the camera with one hand lifting the hem of his robe. He grows quickly in frame, reaches three metres, plants both feet, swings his upper body half back the way he came and throws one arm up over his shoulder to wave the people behind him forward, his ring of keys swinging at his waist. He shouts his line with his mouth moving on each syllable, and the lantern light sweeps across him as he passes each plinth.",
+      "camera": "The camera holds a static wide shot on a 24mm lens at 1.5 metres height on the corridor axis, the vanishing point at 48 percent of frame height slightly right of centre, deep focus so the far window stays readable; he travels from a small figure at the vanishing point to three metres from the camera.",
+      "cn_cam": "全景一点透视（24mm，1.5 米高），他从消失点跑到镜头前三米。",
+      "cn_action": "回廊深处一个小身影提着袍角跑来，越跑越大；到近前三米处刹住，脚一踏定，身子半转回去，一只胳膊高高扬起朝后面招呼；腰间钥匙串跟着甩；灯笼光在他身上扫过；喊话时口型对得上。",
+      "keyframe_first": "Corridor in one-point perspective at night, three red lanterns overhead and three warm pools on the round stone plinths, the lower half in cool blue moonlight; far near the vanishing point a small figure of an elderly steward in deep-brown and grey cotton with a cloth headband and a ring of keys, face out of focus, running toward the camera with one hand lifting his hem; wide at 1.5m, 24mm, deep focus to the far window.",
+      "keyframe_last": "Same corridor and camera axis: the steward now three metres from the camera, both feet planted, body half turned back, one arm raised and waving forward over his shoulder, mouth open, keys swinging at his waist.",
+      "cn_first": "回廊一点透视；远处消失点附近一个很小的身影——老管家提着一只袍角朝镜头跑来；深褐灰棉袍、布头巾、腰间一串钥匙；全景。",
+      "cn_last": "管家已经跑到三米处停住、两只脚站定、上身半转回去、一条胳膊高高扬起朝身后招、腰间钥匙串甩起来。",
+      "sfx": "Fast footsteps on brick, a ring of keys jingling, his shout echoing down the corridor.",
+      "music": "M_drone",
+      "dlg": {
+        "spk": "S2",
+        "line": "来了！都备着！"
+      },
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s11_servant_basin",
+      "part": "生产",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "屋里朝门口看：一个家丁抬着大铜盆跨进门槛。",
+      "line": "（无台词·盆响与脚步）",
+      "chars": [
+        "SERVANT"
+      ],
+      "light": "S03-1R_lamp",
+      "action": "The doorway stands empty at the centre of frame with the corridor dark beyond it and the wooden threshold across the bottom of the opening; the curved brass rim of a large bronze basin and the corner of a folded stack of grey cloth intrude first from the right side of the opening. A household servant then steps in over the threshold, both arms clamped around the basin and holding it against his chest, the cloth tucked under one elbow, one back foot still on the threshold, his head lowered and steam rising from the basin. He walks two steps into the room and stops. He says nothing.",
+      "camera": "The camera is inside the room looking at the open doorway on a 35mm lens at 1.5 metres height, the doorway filling the centre third of frame; the frame stays fixed as he crosses the threshold toward the camera.",
+      "cn_cam": "屋内朝门的中景（35mm，1.5 米高），门槛压在画面底部。",
+      "cn_action": "门外先探进一只铜盆的边和一叠布，接着一个家丁弯腰跨过门槛，双手把盆抱到胸前，臂下夹着布，一只后脚还搭在门槛上；他低着头走进来两步停住；无人说话。",
+      "keyframe_first": "Interior looking at an open doorway at the centre of frame, two leaves against the wall, corridor dark beyond, wooden threshold across the bottom of the opening, grey brick floor in the foreground, lamp light from frame left; the doorway itself empty, only the curved rim of a bronze basin and the corner of a folded grey cloth intruding from the right; medium-wide at 1.5m, 35mm.",
+      "keyframe_last": "Same doorway and framing: a household servant in plain grey cotton with a cloth headband and eyes as two plain dots has stepped in over the threshold and stands inside the room, both arms around the bronze basin held against his chest, the grey cloth under one elbow, one back foot still on the threshold, head lowered, steam rising.",
+      "cn_first": "屋内看门：门扇敞开、门外廊道黑、门槛横在画面底部；门框中央空着，只有一只铜盆的弯沿和一叠布的角从门右侧探进来；中景。",
+      "cn_last": "家丁已跨过门槛站进屋，双手把盆抱在胸前、臂下夹一叠灰布、一只后脚还留在门槛上、头低着、盆里冒热气。",
+      "sfx": "Bronze scraping the threshold, soft footsteps, water steaming.",
+      "music": "M_drone",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s12_maid_box_in",
+      "part": "生产",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "侍女抱着药箱进门，李靖侧身贴到门柱上让开。",
+      "line": "（无台词·脚步与擦碰）",
+      "chars": [
+        "MAID",
+        "C02"
+      ],
+      "light": "S03-1R_lamp",
+      "action": "The maid stands in the doorway holding a dark wooden medicine box in both hands at waist height. Li Jing stands just outside on the right of the opening, half turned toward her with his body blocking the right half of the doorway and one hand still on the door frame. She crosses the threshold and steps inside with the box against her waist; at the same moment Li Jing presses his shoulder flat against the right door post, his chin turned away over his shoulder, and the opening clears between them. Neither speaks.",
+      "camera": "The camera is inside the room on a 35mm lens at 1.5 metres height, the doorway filling the centre third; the frame stays fixed while she crosses toward the camera and he flattens against the post.",
+      "cn_cam": "屋内朝门的中景（35mm，1.5 米高），门在画面中央。",
+      "cn_action": "侍女抱着药箱在门口顿了一下，弯腰跨过门槛走进来；李靖往右一让，把肩膀压到门柱上，下巴偏开，让出门洞；她的裙角从他身前扫过；两人都不说话。",
+      "keyframe_first": "The maid standing in the doorway holding a dark wooden medicine box in both hands at waist height; Li Jing just outside on the right of the opening, half turned toward her and blocking the right half of the doorway with one hand on the door frame; interior lamp light; medium-wide at 1.5m, 35mm, doorway centre third.",
+      "keyframe_last": "Same doorway: the maid stepped in past the threshold with the box at her waist; Li Jing flattened against the right door post, one shoulder pressed to the wood, chin turned away, the opening clear between them.",
+      "cn_first": "侍女站在门中央、双手抱一只深木药箱在腰高；李靖站在门外右侧、半转身、身体挡住门右半边、一手扶门框；中景。",
+      "cn_last": "侍女已跨进门槛、药箱抱在腰侧；李靖整个人贴到右侧门柱上、一肩抵住木头、下巴偏开、门洞让出来。",
+      "sfx": "Footsteps, a wooden box knocking softly, cloth brushing the door post.",
+      "music": "M_drone",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s13_pace_start",
+      "part": "生产",
+      "scene": "S02-2",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "李靖站在柱旁死盯那扇门，随后起步，在廊上来回走一趟。",
+      "line": "旁白：门外，dad 只能走。",
+      "chars": [
+        "C02"
+      ],
+      "light": "S02-2_night",
+      "action": "Li Jing stands beside the vermilion column at frame right with one hand on the sword hilt, his body squared toward the closed door at frame left and his eyes fixed on the thin warm line at its seam; his shoulders are held stiff and he does not blink. After a beat he steps away from the column and walks three paces toward frame left, the heel of his front foot landing first and his torso swinging round, his head still turned back over his shoulder toward that door, the hem of his robe swinging behind him. He says nothing.",
+      "camera": "The camera holds a static wide shot on a 35mm lens at 1.5 metres height on the corridor axis, the column on the right edge and the door on the left edge; he moves from the right third into the centre of the frame without the camera following.",
+      "cn_cam": "全景（35mm，1.5 米高），朱柱在右、门在左，镜头不跟。",
+      "cn_action": "李靖站在柱旁一动不动，眼睛钉在左边那扇门上，肩背绷着；过了一拍，他迈步离开柱子，往画面左侧走三步，脚跟落定、上身拧过去，头还回望着门；他不说话。",
+      "keyframe_first": "Li Jing standing beside a vermilion column at frame right, one hand on the sword hilt, body squared toward the closed door at frame left with a thin warm line at its seam; night corridor with three red lanterns and three warm pools on the plinths, lower half in cool blue moonlight; wide at 1.5m, 35mm, column right edge, door left edge.",
+      "keyframe_last": "Same corridor and camera: Li Jing three steps away from the column, mid-stride toward frame left with his heel just landing, torso swung round, the same hand still on the hilt, head turned back over his shoulder toward the door, robe hem swinging behind him.",
+      "cn_first": "李靖站在右侧朱柱旁、一手按剑柄、身体正对左边的门、下颚紧、眼睛盯着门；全景。",
+      "cn_last": "李靖已离柱三步、正走向画面左侧、一只脚跟刚要落地、上身拧过去、手还在剑柄上、头回望那扇门。",
+      "sfx": "Measured footsteps on brick, night wind, lantern ropes creaking.",
+      "music": "M_quiet",
+      "dlg": {
+        "spk": "S1",
+        "line": "门外，dad 只能走。"
+      },
+      "words": "复习：dad"
+    },
+    {
+      "seg": "ep01_s14_lanterns_dim",
+      "part": "异象",
+      "scene": "S02-2",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "院里三盏红灯笼同时一暗，火苗缩成一点。",
+      "line": "（无台词·火苗声）",
+      "chars": [],
+      "light": "S02-2_night",
+      "action": "The three red lanterns burn steadily overhead with three full warm pools lying on the round stone plinths and the vermilion columns lit warm. All at once the three flames shrink down into small points, the pools narrow and dim, and the whole corridor sinks into the cool blue moonlight; the lantern bodies never stop swinging, only the light dies. No figure and no other movement enters the frame.",
+      "camera": "The camera holds a static wide shot on a 24mm lens at 1.5 metres height on the corridor axis, the three lanterns in the upper third and the frame completely unchanged from the first frame to the last.",
+      "cn_cam": "全景固定（24mm，1.5 米高），一点透视，三盏灯笼在上三分之一。",
+      "cn_action": "回廊里三盏灯笼原本烧得亮，火苗忽然一起缩成一个小点，柱础上的三团暖光跟着收窄、变暗；整条廊子沉进冷蓝月光里；画面无人。",
+      "keyframe_first": "Night corridor in one-point perspective, three red lanterns burning bright overhead, three full warm pools on the round stone plinths, vermilion columns lit warm, the corridor empty; wide at 1.5m, 24mm.",
+      "keyframe_last": "",
+      "cn_first": "三盏红灯笼都烧得亮、柱础上三团暖光清楚、廊子里空无一人、消失点处的纸窗不亮；全景。",
+      "cn_last": "",
+      "sfx": "A faint hiss as the flames pull in, night wind dropping.",
+      "music": "M_drone",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s15_door_seam_red",
+      "part": "异象",
+      "scene": "INS-1",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "门缝里渗出一线红光，亮一下、暗一下。",
+      "line": "旁白：门缝里，透出红光。",
+      "chars": [],
+      "light": "INS_red",
+      "action": "The two heavy wooden door leaves are clamped shut with no light at the seam, the vertical gap dead centre and the threshold across the lower quarter. A thread of red light then opens along the seam, brightening until the line is clearly visible, then sinking back almost to nothing, then brightening again; the glow is never stable and never spreads out onto the wood of the leaves. At the very end the door frame trembles once and the red line pinches thinner. No figure appears.",
+      "camera": "The camera holds a fixed close shot on an 85mm lens at 0.30 metres above the threshold, square to the seam with shallow depth of field; the frame never moves and the seam stays dead centre in both the first and last frame.",
+      "cn_cam": "固定近景（85mm、浅景深、正对门缝，镜头在门槛上方 0.30 米）。",
+      "cn_action": "两扇门紧闭，门缝里先出现一根极细的红线，亮起来、又暗下去，再亮一次；红光始终不往门板上洇开；最后门框轻轻抖一下；画面无人。",
+      "keyframe_first": "Two heavy dark wooden door leaves clamped shut and filling the frame, the vertical seam dead centre with no light in it at all, the wooden threshold across the lower quarter, two old bolt scars on the leaf surfaces, everything almost black; fixed close shot at 0.30m above the threshold, 85mm.",
+      "keyframe_last": "",
+      "cn_first": "两扇旧木门占满画面、门缝垂直居中、门缝里没有任何光、门槛横在下方四分之一、门面上两道旧门栓印痕清楚；固定近景。",
+      "cn_last": "",
+      "sfx": "A low electric hum, wood creaking under pressure.",
+      "music": "M_low",
+      "dlg": {
+        "spk": "S1",
+        "line": "门缝里，透出红光。"
+      },
+      "words": "复习：—"
+    },
+    {
+      "seg": "ep01_s16_tree_moves",
+      "part": "异象",
+      "scene": "S02-1",
+      "mode": "i2va",
+      "dur": 5,
+      "visual": "没有风，老梅树的叶子却翻起来乱动，枝上空鸟笼自己晃起来。",
+      "line": "旁白：没有风，树也在动。",
+      "chars": [],
+      "light": "S02-1_night",
+      "action": "The old plum tree stands still in the right half of frame with every leaf hanging flat and the empty bamboo birdcage hanging dead vertical from its branch, its shadow steady on the brick. The leaves then lift and turn one after another all over the tree, showing their pale grey undersides, until the whole canopy is churning while the branch itself barely moves; the cage starts to sway, small at first and then wider; the shadow of the branch swings across the paving left and right. There is no figure and no wind to explain it.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.4 metres height with the plum tree filling the right half of frame and the courtyard behind it; the frame never moves and no leaf leaves the frame boundary.",
+      "cn_cam": "中景固定（50mm，1.4 米高），梅树在画面右侧。",
+      "cn_action": "梅树安静立着，叶子全垂平；忽然叶片一片片翻起来、露出灰白的背面，越翻越乱；枝上那只空鸟笼自己摆起来，越摆越大；地上的枝影跟着晃；画面无人。",
+      "keyframe_first": "Old plum tree in the right half of frame, every leaf hanging flat and still, one empty bamboo birdcage hanging dead vertical from a branch, the branch shadow steady on the herringbone grey brick; night courtyard with cool blue moonlight and one far red lantern; medium at 1.4m, 50mm.",
+      "keyframe_last": "",
+      "cn_first": "老梅树叶子全部平垂静止、枝上空鸟笼垂直不动、地上的枝影很稳；中景右侧。",
+      "cn_last": "",
+      "sfx": "Leaves rustling with no wind, bamboo cage creaking, the still night air.",
+      "music": "M_drone",
+      "dlg": {
+        "spk": "S1",
+        "line": "没有风，树也在动。"
+      },
+      "words": "复习：—"
+    },
+    {
+      "seg": "ep01_s17_water_spill",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "家丁端着一盆热水从门里出来，抬头看见门底的红光，脚一停，盆歪了。",
+      "line": "（无台词·水泼与抽气）",
+      "chars": [
+        "SERVANT"
+      ],
+      "light": "S03-1R_lamp",
+      "action": "The servant has just crossed the threshold toward the camera with a bronze basin of steaming water held in both hands at waist height, his head lifted and looking straight ahead. He stops dead: his head drops toward the red glow at the bottom of the door beside him, his eyes go wide, his shoulders shoot up around his ears and the basin tips forward so a sheet of water slides over the rim and hangs in the air. He makes no word, only one sharp gasp.",
+      "camera": "The camera is inside the room looking at the doorway on a 35mm lens at 1.5 metres height, him full body with the door at the left edge; the frame stays fixed and he stops dead rather than walking out of frame.",
+      "cn_cam": "屋内朝门的中景（35mm，1.5 米高）。",
+      "cn_action": "家丁端着热盆从门里跨出来，白气往上冒；他抬眼，目光落到门底那道红光上，脚步一顿；肩膀猛地耸起，铜盆往前一倾，一泼水刚离盆沿；他不说话。",
+      "keyframe_first": "The servant just inside the doorway with a bronze basin of steaming water held in both hands at waist height, head lifted, looking straight ahead, one foot ahead of the other mid-step; interior lamp light with a bright red line already under the door at the left edge; medium-wide at 1.5m, 35mm.",
+      "keyframe_last": "Same doorway and framing: the servant stopped dead, head dropped toward the red glow under the door, eyes wide, shoulders up around his ears, the basin tipped forward with a sheet of water just leaving the rim and hanging in the air.",
+      "cn_first": "家丁刚跨出门槛、双手端一盆热水、盆上冒白气、头抬着正常往前看；中景。",
+      "cn_last": "家丁停在门槛上、低头看门底那道光、眼睛瞪大、肩膀耸起、铜盆向前倾、一泼水刚从盆沿滑出去。",
+      "sfx": "Water slapping the stone floor, the bronze basin ringing, one sharp gasp.",
+      "music": "M_cut",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s18_red_overflow",
+      "part": "异象",
+      "scene": "S02-1",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "院里拍正房门：红光从门底涌出来，一波扫下三级石阶。",
+      "line": "旁白：红光，从门底下涌出来。",
+      "chars": [],
+      "light": "S02-1_red_step",
+      "action": "The two door leaves stay clamped shut with only a thin red line at the seam and the three stone steps lying dark grey, the worn dip in the second step legible. The red light then swells behind the seam and pours out under the bottom edge of the doors, running down the first step, then the second, then the third like liquid, lighting each tread as it crosses it and spreading out across the brick below. The leaf itself never opens and the glow never reaches the top of the doors. No figure appears.",
+      "camera": "The camera holds a fixed wide shot on a 35mm lens at 1.2 metres height, the steps across the lower third and the doors across the upper third, no reframing while the light travels down.",
+      "cn_cam": "全景（35mm，1.2 米高），石阶压在画面下三分之一、门在上三分之一。",
+      "cn_action": "门缝的红光先亮了一下，接着从门底漫出来，像水一样涌下第一级、第二级、第三级台阶；台阶一级一级被点亮，红光在砖面上推开；门板始终没开；画面无人。",
+      "keyframe_first": "The two door leaves clamped shut at the top third of frame with one thin red line at the seam, three stone steps lying dark grey across the lower third, the worn dip in the second step readable, the brick apron dark; wide at 1.2m, 35mm.",
+      "keyframe_last": "",
+      "cn_first": "正房两扇门紧闭、门缝一线红光、三级石阶还是暗灰、第二级那道踩出来的凹痕清楚、砖地暗着；全景。",
+      "cn_last": "",
+      "sfx": "A low surging sound, light sweeping across stone.",
+      "music": "M_drone",
+      "dlg": {
+        "spk": "S1",
+        "line": "红光，从门底下涌出来。"
+      },
+      "words": "复习：—"
+    },
+    {
+      "seg": "ep01_s19_yard_all_red",
+      "part": "异象",
+      "scene": "S02-1",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "全景：红光铺满院子，白墙变红，灯笼影子压成薄片。",
+      "line": "旁白：整个院子，都红了。",
+      "chars": [],
+      "light": "S02-1_red_full",
+      "action": "Seen from high above, the red light pours off the steps and spreads across the herringbone brick, reaching the well, the roots of the plum tree and the base of every vermilion column in turn; the whitewashed walls take the red and the three lantern bodies press three thin dark shadows flat against the wall. Nothing in the courtyard itself moves; only the red area expands until the whole floor is covered. No figure appears.",
+      "camera": "The camera holds a fixed high wide shot on a 24mm lens at 2.2 metres height from the south wall, the whole courtyard in frame with the steps at the top and the brick floor filling the lower two thirds.",
+      "cn_cam": "高位全景（24mm，2.2 米高），整座天井收进画面。",
+      "cn_action": "红光从台阶往下漫，一层层铺过青砖地，铺到井边、铺到梅树根下，最后整片院子都红透；白墙被映成红的，三盏灯笼的影子在墙上被压成薄薄一片；画面无人。",
+      "keyframe_first": "High wide view of the whole courtyard from the south wall: herringbone grey brick floor, six vermilion columns, three stone steps already washed red at the top of frame, the stone well, the old plum tree with its birdcage, whitewashed walls still in cool moonlight, three red lanterns; wide at 2.2m, 24mm.",
+      "keyframe_last": "",
+      "cn_first": "从南墙高位看整座天井：青砖人字纹地面、六根朱柱、三级石阶已被红光染亮、石井、老梅树与鸟笼、白墙都还沉在冷月光里、三盏红灯笼；全景。",
+      "cn_last": "",
+      "sfx": "Wind, distant wood groaning under pressure.",
+      "music": "M_drone",
+      "dlg": {
+        "spk": "S1",
+        "line": "整个院子，都红了。"
+      },
+      "words": "复习：—"
+    },
+    {
+      "seg": "ep01_s20_room_burst",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "屋里红光炸到最亮，梁上的影子猛晃。",
+      "line": "（无台词·光爆与梁响）",
+      "chars": [],
+      "light": "S03-1R_burst",
+      "action": "The whole interior sits in a medium red wash with every object casting a hard shadow. The red then spikes, filling the room with a saturated red so strong that the beams, the corners of the low table and the screen panels push long shadows across the walls, all of them shifting once as the source moves; a red flame reflects off the celadon on the table. There is no figure in the room and no object falls.",
+      "camera": "The camera holds a static wide shot on a 35mm lens at 1.5 metres height inside the room, the beams at the top of frame and the screen at the right edge; no reframing during the flare.",
+      "cn_cam": "全景（35mm，1.5 米高）屋内。",
+      "cn_action": "屋里原本中等的红光突然暴涨，把整间堂屋照得通红；横梁、案角、屏风的影子被推得长长的，在墙上一晃；案上青瓷反出一道红光；画面无人。",
+      "keyframe_first": "Interior wide: beams overhead, a long narrow table with five celadon pieces, two high-backed chairs, a six-panel screen with wave-and-cloud carving, paper windows; the whole room washed a medium red with a hard shadow under every object; wide at 1.5m, 35mm, no figure.",
+      "keyframe_last": "",
+      "cn_first": "内堂全景：横梁、长条案上五件青瓷、两把高背椅、六扇海浪云纹屏风、纸窗；整间被红光洗成暗红，每件东西都投出硬影；画面无人；全景。",
+      "cn_last": "",
+      "sfx": "A muffled burst of light, timber creaking.",
+      "music": "M_drone",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s21_door_flung_open",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "门从里面被拉开，侍女连滚带爬冲出来，一只鞋掉在门槛上。",
+      "line": "旁白：侍女跑出来了。",
+      "chars": [
+        "MAID"
+      ],
+      "light": "S03-1R_burst",
+      "action": "Both leaves are shut with red leaking at the seam and round the edges; a hand grips the edge of the right leaf from inside, knuckles white and a cuff of pale lotus cotton showing at the wrist. The leaf is wrenched open and the maid bursts through it: she crosses the threshold at a run, her knees give way as she passes, one palm slaps down on the threshold stone to catch herself, her hair falls loose across her face, one bare foot lands outside and one shoe stays behind on the threshold, and the red light floods out after her. She says nothing and only gasps.",
+      "camera": "The camera is outside the room looking at the door on a 35mm lens at 1.5 metres height, the doorway dead centre; the frame is locked while she crosses toward the camera.",
+      "cn_cam": "屋外朝门的中景（35mm，1.5 米高），门在画面中央。",
+      "cn_action": "门里一只手抓住右扇门的边，一使劲把门拉开；侍女整个人扑出来，跨过门槛时膝盖一软往下折，一只手拍在门槛石上撑住身子，头发散在脸上；一只鞋掉在门槛上；红光从她背后涌出来；她不说话，只有喘。",
+      "keyframe_first": "Both door leaves shut with red leaking at the seam and around the edges, a woman's hand gripping the edge of the right leaf from inside, knuckles white, a cuff of pale lotus cotton at the wrist; interior red-washed lamp light; medium-wide at 1.5m, 35mm, doorway dead centre.",
+      "keyframe_last": "The right leaf flung open; the maid already past the threshold with her knees buckling, one palm slapped down on the threshold stone, hair loose across her face, one bare foot outside and one shoe left on the threshold behind her, red light spilling out of the doorway.",
+      "cn_first": "两扇门紧闭、门缝与门边漏出红光、一只手从里面抓住右扇门的边、指节发白、袖口露出一截藕白棉布；中景。",
+      "cn_last": "右扇门被甩开；侍女已扑到门槛外、膝盖正往下折、一只手掌拍在门槛石上撑住、头发散乱盖脸、一只赤脚着地、另一只鞋留在门槛上、红光从她背后涌出来。",
+      "sfx": "The wooden door crashing open, a body hitting the threshold, ragged gasping.",
+      "music": "M_cut",
+      "dlg": {
+        "spk": "S1",
+        "line": "侍女跑出来了。"
+      },
+      "words": "复习：—"
+    },
+    {
+      "seg": "ep01_s22_maid_points",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "她坐在门槛上，回身指着屋里。",
+      "line": "侍女：夫人生了！生了个肉球！",
+      "chars": [
+        "MAID"
+      ],
+      "light": "S03-1R_burst",
+      "action": "The maid sits on the threshold with both hands flat on the stone behind her, her legs folded under her and her head hanging, her hair covering her face, the doorway wide open behind her. She pushes her torso upright, leans her back against the left door post, twists one arm back through the opening and points straight inside; her face has gone bone white, her eyes are round, her mouth opens wide on each syllable of the line and closes fully on the last one, and her free hand grips the collar of her own robe.",
+      "camera": "The camera holds a static medium shot on a 35mm lens at 1.3 metres height, her body filling the middle third of frame with the doorway behind; no reframing as she straightens up.",
+      "cn_cam": "中景（35mm，1.3 米高），她占画面中段。",
+      "cn_action": "侍女在门槛上撑起身子坐直，背抵住左边的门柱；她把一只胳膊反手伸进门里，食指直直指过去；脸上的血色全退，眼睛瞪圆，嘴张开，喊出那句台词，口型与每个字对得上；另一只手抓着自己的领口；镜头固定。",
+      "keyframe_first": "The maid collapsed on the threshold, both hands flat on the stone behind her, legs folded under her, head hanging and hair over her face, the doorway wide open behind her with red light pouring out; medium at 1.3m, 35mm.",
+      "keyframe_last": "Same threshold and framing: she has straightened up with her back against the left door post, one arm twisted back through the opening and pointing straight inside, face bone white, eyes round, mouth open, the other hand at her own collar.",
+      "cn_first": "侍女跌坐在门槛上、两手撑在身后的石头上、两条腿折在身下、头低着、头发盖住脸、身后门大开、红光炽烈；中景。",
+      "cn_last": "她坐直了、背靠左边门柱、一条胳膊反身伸进门里、食指直直指着、脸白得没有血色、嘴张开、另一只手抓着领口。",
+      "sfx": "Her shout, rough panting, a low hum under the red light.",
+      "music": "M_cut",
+      "dlg": {
+        "spk": "S4",
+        "line": "夫人生了！生了个肉球！"
+      },
+      "words": "首现：ball（肉球）"
+    },
+    {
+      "seg": "ep01_s23_ball_spin",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "地上一个肉球在缓缓打转，红光绕着它盘成一圈。",
+      "line": "旁白：地上一个肉球，在打转。",
+      "chars": [],
+      "light": "S03-1R_burst",
+      "action": "A smooth flesh-coloured round mass sits motionless on the brick at the centre of the floor, its surface soft and dull, only a faint red halo on the stone round it and a beam shadow lying across the floor. It begins to turn, slowly at first, completing a quarter turn so that a fine fold is wrung out at the top; a ring of red light winds in tighter and tighter round its base, the ring growing brighter and never breaking, and the red climbs partway up the shape. No figure appears.",
+      "camera": "The camera holds a low static close shot on a 50mm lens at 0.5 metres height, the mass in the lower middle of frame with the brick filling the rest; no reframing while it turns.",
+      "cn_cam": "低机位近景（50mm，0.5 米高），球在画面中下段。",
+      "cn_action": "地砖上一个圆滚滚的肉球先静止不动；接着它开始缓缓转动，转了四分之一圈，顶上被拧出一道细褶；绕在它周围的那圈红光越盘越紧、越亮，光也顺着球身往上爬；画面无声。",
+      "keyframe_first": "A smooth flesh-coloured round mass sitting motionless on the grey brick at the centre of the floor, surface soft and dull with no highlight, only a faint red halo on the stone around it and one beam shadow lying across the paving; low close at 0.5m, 50mm.",
+      "keyframe_last": "Same mass now turned a quarter turn with a fine fold wrung out at the top, one ring of red light wound tight round its base and bright, the red climbing partway up its body, the brick around it warmed.",
+      "cn_first": "地砖中段一只光滑肉色的圆球静静坐着，表面柔、没有光泽，砖上只有一圈淡淡红晕，梁影横过地面；低机位近景。",
+      "cn_last": "球在砖上转了四分之一圈、顶上多出一道细褶、一圈红光绕着它盘在砖上、亮而不断、红光也爬到球的下半部。",
+      "sfx": "A soft wet friction, a low hum.",
+      "music": "M_drone",
+      "dlg": {
+        "spk": "S1",
+        "line": "地上一个肉球，在打转。"
+      },
+      "words": "复习：ball"
+    },
+    {
+      "seg": "ep01_s24_mom_stare",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "夫人仰躺在榻上，胸口起伏，头偏向地上那只球，眼睛死死盯着。",
+      "line": "（无台词·呼吸声）",
+      "chars": [
+        "C03"
+      ],
+      "light": "S03-1R_burst",
+      "action": "Lady Yin lies flat on the low couch with the quilt kicked down past her knees and her dusty-pink robe soaked dark at the front, her hair loose and stuck to her forehead, the great belly collapsed soft. She turns her head slowly toward the red light at frame right, her eyes locking onto it and holding, and one hand grips the couch cloth and pulls it tight while her chest rises and falls deeply. She makes no sound.",
+      "camera": "The camera holds a static medium close shot on a 50mm lens at 1.2 metres height, her in the left half of frame from the waist up with the red glow she is looking at living off frame right.",
+      "cn_cam": "中景（50mm，1.2 米高），她占画面左侧。",
+      "cn_action": "夫人仰躺着，胸口一起一伏；她慢慢把头转向地上的红光，眼睛一直盯着那边；手在身侧抓了一下榻布；镜头固定；她不出声。",
+      "keyframe_first": "Lady Yin lying flat on the low couch, quilt kicked down past her knees, dusty-pink robe soaked dark at the front, hair loose and stuck to her forehead, the great belly collapsed soft, both hands loose at her sides, head still turned straight up, eyes open; interior red light; medium close at 1.2m, 50mm, her in the left half of frame.",
+      "keyframe_last": "",
+      "cn_first": "夫人仰躺在矮榻上、被子踢到膝下、藕荷长衣前襟被汗浸深、头发贴在额上、散出髻、大肚子塌下来、两手摊在身侧、头还朝上、眼睛睁着；中景半身。",
+      "cn_last": "",
+      "sfx": "Heavy breathing, couch cloth pulled tight.",
+      "music": "M_tender",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s25_sword_draw",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "李靖跨进门，一把抽出剑。",
+      "line": "旁白：dad 拔了剑。",
+      "chars": [
+        "C02"
+      ],
+      "light": "S03-1R_burst",
+      "action": "Li Jing stands in the open doorway with one boot on the threshold, the black sheath still on his hip and his right hand closed round its mouth, his body squared at the room and his eyes already down on the mass on the floor. He drives his weight forward off the doorway, takes two steps into the room, and pulls the blade out in one motion; the bare edge comes out of the sheath and hangs at an angle beside his right thigh, one bright line of red running along the steel, the empty sheath left in his left hand, his head turned down toward the floor. He says nothing.",
+      "camera": "The camera holds a static wide shot on a 35mm lens at 1.5 metres height, him at frame left and the room opening to the right; he travels two steps into the room without the frame reframing.",
+      "cn_cam": "全景（35mm，1.5 米高），他在画面左、房间向右展开。",
+      "cn_action": "李靖一只脚踏过门槛，站进屋里两步；右手一抽，剑从黑鞘里拉出来，刃面在红光里划出一道亮；空鞘落在左手；他侧身对着屋子中央，下颚咬紧，眼睛盯着地上那只球；镜头固定。",
+      "keyframe_first": "Li Jing standing in the open doorway with one boot on the threshold, the black sheath on his hip and his right hand closed round its mouth, body squared at the room, eyes down on the floor; interior red light; wide at 1.5m, 35mm, him at frame left and the room opening right.",
+      "keyframe_last": "Same room and framing: Li Jing two steps inside, the bare blade pulled out and hanging at an angle beside his right thigh with one bright red line along the steel, the empty sheath in his left hand, his body turned toward the centre of the room, jaw set and eyes on the floor.",
+      "cn_first": "李靖站在敞开的门口、一只靴踏在门槛上、剑还在黑鞘里、右手握着鞘口、身体正对屋内、眼睛盯着地上；全景。",
+      "cn_last": "李靖已进屋两步、剑抽出来斜垂在右身侧、裸刃上有一道红边、左手里是空鞘、身体转向屋子中央、下颚咬紧。",
+      "sfx": "One long metallic ring as the blade leaves the sheath, boot heel landing.",
+      "music": "M_cut",
+      "dlg": {
+        "spk": "S1",
+        "line": "dad 拔了剑。"
+      },
+      "words": "复习：dad"
+    },
+    {
+      "seg": "ep01_s26_point_sword",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "剑尖指着肉球，他咬着牙。",
+      "line": "李靖：妖物？",
+      "chars": [
+        "C02"
+      ],
+      "light": "S03-1R_burst",
+      "action": "Li Jing lifts the blade to shoulder height with both hands locked on the grip, the edge angled down and the elbows bent, his face aimed at the floor. He lowers the tip until it hangs directly over the mass and holds it dead still, then drops his head, tucks his chin down, clenches his teeth and narrows his eyes; he speaks his line through those clenched teeth with his mouth barely opening on each sound and his brows pressed down hard.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.4 metres height, him in the upper two thirds and the rim of the mass breaking the bottom edge; the tip of the sword stays in frame for the whole shot.",
+      "cn_cam": "中景（50mm，1.4 米高）。",
+      "cn_action": "李靖把剑举到肩膀高度，刃尖斜斜朝下；他把剑尖慢慢压向地上那只球，一直指到球的正上方，停稳；头低下来，下巴收紧，牙咬着，从齿缝里挤出那两个字，口型对得上；镜头固定。",
+      "keyframe_first": "Li Jing with the blade at shoulder height, both hands locked on the grip, elbows bent, the edge angled down, face aimed down at the floor, mouth closed and brows pressed; interior red light; medium at 1.4m, 50mm, him in the upper two thirds.",
+      "keyframe_last": "Same framing: the tip of the blade now hanging directly over the pale mass on the floor, dead still, both hands locked on the grip, his head dropped and chin tucked, teeth clenched, eyes narrowed.",
+      "cn_first": "李靖把剑举到肩膀高度、刃斜向下、双手握柄、两肘都弯着、脸朝着下前方、眉毛压着、嘴闭着；中景。",
+      "cn_last": "剑尖直直指着地上的肉球、刃停稳不动、两手锁在柄上、头低下来、下巴收紧、牙齿咬住、眼睛眯起来盯着球。",
+      "sfx": "A thin whisper of the blade edge, a clenched nasal breath.",
+      "music": "M_heart",
+      "dlg": {
+        "spk": "S3",
+        "line": "妖物？"
+      },
+      "words": "首现：monster（暂用中文）"
+    },
+    {
+      "seg": "ep01_s27_chop",
+      "part": "异象",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "一剑直劈下去，剑锋压进肉球顶端。",
+      "line": "旁白：一剑劈下去。",
+      "chars": [
+        "C02"
+      ],
+      "light": "S03-1R_burst",
+      "action": "Li Jing hauls the blade up overhead with both arms straight and the edge pointing at the ceiling, his weight loaded onto the back leg and his shoulders lifted. He draws one breath and drives the sword straight down; the edge lands on the top of the mass, sinking into it, the soft surface denting into a deep V and the whole shape squashed wider; his torso pitches forward over his front foot, both arms rigid and his teeth bared. He says nothing; the red light runs up the steel.",
+      "camera": "The camera holds a static medium shot on a 35mm lens at 1.4 metres height with his whole body in frame and the mass at the bottom edge; the motion happens entirely inside the frame.",
+      "cn_cam": "中景（35mm，1.4 米高），他全身在框。",
+      "cn_action": "李靖把剑举到头顶，两臂绷直；他吸一口气，剑从上直劈下来，落到球顶；软软的球面被刃压出一道深 V，球身被挤宽；他上身前压，重心移到前脚，牙露出来；红光顺着剑刃窜起；镜头固定。",
+      "keyframe_first": "Li Jing with the blade hauled overhead, both arms straight up, edge at the ceiling, weight on the back leg, shoulders lifted, face set, eyes on the floor below; interior red light; medium at 1.4m, 35mm, whole body in frame.",
+      "keyframe_last": "Same framing: the edge landed on the top of the pale mass, sunk in, the soft surface dented into a deep V and the shape squashed wider, his arms rigid and torso pitched forward over the front foot, teeth bared, red light running up the steel.",
+      "cn_first": "李靖把剑高高举过头顶、两条手臂伸直、刃朝天、重心压在后腿、肩膀抬起、脸绷紧、眼睛看着地面；中景全身。",
+      "cn_last": "刃已落到球顶、球面被压出一个深深的 V 形凹口、球被压宽、他双臂伸直、上身前压、重心移到前脚、牙露出来、红光顺着刃面往上窜。",
+      "sfx": "A low wet cut, cloth crushing under pressure.",
+      "music": "M_cut",
+      "dlg": {
+        "spk": "S1",
+        "line": "一剑劈下去。"
+      },
+      "words": "复习：—"
+    },
+    {
+      "seg": "ep01_s28_ball_splits",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "球沿着刀口裂开，光炸满整屋，两瓣在砖上分开。",
+      "line": "旁白：球，裂开了。",
+      "chars": [],
+      "light": "S03-1R_burst",
+      "action": "The mass lies whole on the brick with one fine clean crack across its top and a thin red line leaking from that crack. The crack is then torn wider and wider until the mass splits into two lobes which slide apart to the left and right and settle flat on the paving, both wet shining cut faces turned up, a wide band of red light blasting up out of the gap and charring the brick around it red. No blade and no figure stays in frame; only the two lobes and the light.",
+      "camera": "The camera holds a low static close shot on a 50mm lens at 0.5 metres height with the mass at the centre of the lower frame and the brick filling the rest; the frame does not move as the two halves travel to the left and right inside it.",
+      "cn_cam": "低机位近景（50mm，0.5 米高），球在画面中下段。",
+      "cn_action": "球顶那道细缝先被撕开，越裂越宽；球从中间分成两瓣，往左右两边滑开，落在砖上；两片切面又滑又湿；裂口里喷出一道宽宽的红光，把地砖烧得通红；画面无人。",
+      "keyframe_first": "The pale mass still whole and resting on the grey brick at the centre of the floor, one fine clean crack across its top with a thin red line leaking from it, the brick around it baked dark red; low close at 0.5m, 50mm.",
+      "keyframe_last": "Same floor and framing: the mass split into two lobes lying apart on the brick, both cut faces smooth and wet, a wide band of red light blasting up out of the gap between them, the brick around the gap burned bright red.",
+      "cn_first": "肉球还完整地躺在地砖中央，顶上有一道细而干净的裂缝、红光从缝里漏出一条细线、周围砖面被烤成暗红；低机位近景。",
+      "cn_last": "球分裂成两瓣、左右分开躺在砖上、中间裂开一道明显的空、两片切面光滑发湿、一道宽宽的红光从缝里喷出来、砖被烧得通红。",
+      "sfx": "A muffled split, a wet soft separation, a low blast of light.",
+      "music": "M_cut",
+      "dlg": {
+        "spk": "S1",
+        "line": "球，裂开了。"
+      },
+      "words": "复习：ball"
+    },
+    {
+      "seg": "ep01_s29_boy_rises",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "裂口里先露出头顶和一只小脚，接着整个人掉出来，两只赤脚踩稳砖地。",
+      "line": "旁白：出来一个 boy。",
+      "chars": [
+        "C01"
+      ],
+      "light": "S03-1R_burst",
+      "action": "The two lobes lie apart on the brick with only a small crown of two topknots tied with red cord and one bare baby foot showing in the gap. The whole small child then slides out of the gap: both feet come down flat on the paving one after the other, the knees buckle once, both little fists slap down to catch himself, a scarf of deep vermilion silk still wrapped round his body with its tail dragging on the brick, and his head stays bowed. He makes no sound.",
+      "camera": "The camera holds a low static close shot on a 50mm lens at 0.5 metres height, the gap at the centre of the lower frame and the two lobes left and right; the child grows inside the frame without the camera moving.",
+      "cn_cam": "低机位近景（50mm，0.5 米高）。",
+      "cn_action": "球的两瓣分开躺着，先露出头顶和一只小脚；接着一个小娃娃整个从缝里滑出来，两只脚先后踩到砖上，膝盖一弯没站稳，两个拳头撑住地面；裹在身上的朱红长绫拖在身后；画面几乎无声。",
+      "keyframe_first": "Two pale lobes lying apart on the grey brick at the centre of the floor with only a small crown of two topknots tied with red cord and one bare baby foot showing in the gap between them, red light blazing up round them; low close at 0.5m, 50mm.",
+      "keyframe_last": "Same floor and framing: the small child landed, both bare feet flat on the brick, knees bent, both fists pressed down on the paving, a deep vermilion silk scarf wrapped round his body with its tail dragging behind him, a fine gold ring at his right ankle, his head bowed.",
+      "cn_first": "两瓣球分开躺在地砖上，中间的缝里只露出一小截头顶（两个小揪揪、红绳）和一只赤脚，红光围着它们烧；低机位近景。",
+      "cn_last": "娃娃已经落下：两只赤脚平平踩在砖上、膝盖弯着、右脚踝一圈细金环反光、朱红长绫还裹在身上、绫尾拖在身后的砖上、头低着、两只小拳头按在砖上。",
+      "sfx": "A wet soft landing, bare soles on brick.",
+      "music": "M_heart",
+      "dlg": {
+        "spk": "S1",
+        "line": "出来一个 boy。"
+      },
+      "words": "首现：boy"
+    },
+    {
+      "seg": "ep01_s30_stand_up",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "他蹲在地上，然后一点点站直。",
+      "line": "（无台词·布料与赤脚）",
+      "chars": [
+        "C01"
+      ],
+      "light": "S03-1R_burst",
+      "action": "The child crouches on the brick with his head down, both fists planted on the paving and the vermilion scarf bunched at his feet. He lifts his head first, then pushes against his own knees with both palms and straightens up inch by inch until he is standing; the scarf slides back and spreads out behind him, his two bare feet settle apart and steady, his chin comes level and his eyes look straight ahead. He says nothing.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 0.9 metres height with his full body in frame and air above his head; the rise happens inside the frame, no camera movement, no tilt.",
+      "cn_cam": "中景（50mm，0.9 米高），他全身在框。",
+      "cn_action": "小娃娃蹲在地上，拳头撑着砖；他先把头抬起来一点，然后用手推着膝盖，一点一点把身体撑直，最后完全站住；长绫在身后铺开；他两只脚分得很稳；镜头固定；画面无声。",
+      "keyframe_first": "The small child crouched on the brick with his head down, both fists pressed flat on the paving, the vermilion scarf bunched at his feet, the two topknots tied with red cord; interior red light; medium at 0.9m, 50mm, full body.",
+      "keyframe_last": "Same framing: the child standing upright and small but steady, both arms hanging at his sides, the vermilion scarf spread out behind him, chin level, eyes forward, the three-lobed red flame mark on his forehead clear, gold ring at his right ankle.",
+      "cn_first": "哪吒蹲在砖地上、头低着、两只拳头按在地上、朱红长绫在脚边堆着；中景全身。",
+      "cn_last": "哪吒已经站直、身体小而稳、长绫在身后拖出去、两条胳膊垂着、下巴平、眼睛向前、额间三瓣朱红火焰纹清楚。",
+      "sfx": "Very light cloth dragging, bare feet on brick.",
+      "music": "M_tender",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s31_laugh",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 5,
+      "visual": "他抬起头，咯咯笑，跺了一下小脚，眼里落着两点红光。",
+      "line": "（无台词·孩子笑声）",
+      "chars": [
+        "C01"
+      ],
+      "light": "S03-1R_burst",
+      "action": "The small child stands with his head slightly down, mouth closed and a serious face, both feet together and both fists at his sides. He throws his head back, his mouth opens wide into a laugh, his eyes crinkle shut, one small foot stamps down on the brick and the scarf snaps up behind him; two small points of red light sit in his eyes. He speaks no words, only the laugh.",
+      "camera": "The camera holds a static medium wide shot on a 50mm lens at 0.9 metres height with the whole child in frame and both lobes of the split ball at the left and right edges; no zoom and no push in.",
+      "cn_cam": "全景（50mm，0.9 米高），全身。",
+      "cn_action": "小娃娃站着，头低着；他忽然把头一仰，嘴张开，笑得眼睛弯起来，露出牙；一只小脚在地上跺了一下，长绫跟着一弹；眼里映着两点红光；镜头固定；他只有笑声。",
+      "keyframe_first": "The small child standing with his head slightly down, mouth closed, face serious, both feet together, both fists at his sides, the vermilion scarf trailing behind him, the two lobes of the split ball at the left and right edges of frame; interior red light; medium-wide at 0.9m, 50mm.",
+      "keyframe_last": "",
+      "cn_first": "哪吒站着、头微微低着、嘴闭着、表情严肃、两只脚并拢、拳头在身侧、两瓣球在画面左右边缘；全景全身。",
+      "cn_last": "",
+      "sfx": "A child's bright giggle, one bare foot stamping the brick.",
+      "music": "M_tender",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s32_hand_frozen",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "李靖举剑的手停在半空，眼睛瞪大。",
+      "line": "旁白：dad 的手，停在半空。",
+      "chars": [
+        "C02",
+        "C01"
+      ],
+      "light": "S03-1R_burst",
+      "action": "Li Jing still holds the sword up at shoulder height with a bent arm and the edge angled down, but his face has come unstuck from its hard set: his eyes widen, his mouth drops open and he forgets to close it, and the raised hand hangs dead still in the air with only a small tremor running through the wrist. The top of the child's head sits in the lower left corner of frame, the rest of him cropped out.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.4 metres height on Li Jing from the waist up, the sword arm fully inside frame and the child's crown breaking the lower left corner.",
+      "cn_cam": "中景（50mm，1.4 米高），他半身，孩子的头顶在画面左下角。",
+      "cn_action": "李靖的剑还举在半空，手臂僵在那里；他的眼睛慢慢睁大，嘴张开忘了合；举剑的手停在原处一动不动，只有手腕轻轻抖了一下；镜头固定；他不说话。",
+      "keyframe_first": "Li Jing with the sword still up at shoulder height, arm bent, edge angled down, face hard and eyes fixed on the floor; lower left corner shows only the top of the child's head with two topknots; interior red light; medium at 1.4m, 50mm.",
+      "keyframe_last": "",
+      "cn_first": "李靖剑还举在肩膀高度、手臂弯着、刃斜向下、表情仍然硬、眼睛盯着孩子；中景半身。",
+      "cn_last": "",
+      "sfx": "Total quiet, only a distant low hum.",
+      "music": "M_heart",
+      "dlg": {
+        "spk": "S1",
+        "line": "dad 的手，停在半空。"
+      },
+      "words": "复习：dad"
+    },
+    {
+      "seg": "ep01_s33_grab_finger",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "娃娃伸手抓住他一根手指。",
+      "line": "旁白：boy 抓住 dad 的手指。",
+      "chars": [
+        "C01",
+        "C02"
+      ],
+      "light": "S03-1R_burst",
+      "action": "At frame left the child's small hand hangs at his side with the fingers open and a wide gold bangle at the wrist; at frame right Li Jing's big hand is still closed round the sword grip with the blade pointing out of frame, and a hand width of brick shows between the two hands. The child's hand then rises and one small finger hooks around one of Li Jing's fingers, so the two hands touch at that single point and nowhere else; the bangle turns over and throws one hard gold edge, and the sword stays in the same fist.",
+      "camera": "A static close shot on an 85mm lens at 0.9 metres height with shallow depth of field, both hands inside frame and the brick between them held in focus; the frame does not move.",
+      "cn_cam": "手部近景（85mm，0.9 米高，浅景深）。",
+      "cn_action": "小娃娃的手先抬起来，慢慢伸过去；他的小指头勾住了李靖垂下来的那根手指；两只手只在那一处接触，轮廓分得清楚；金镯翻了一下，亮出一道硬边；镜头固定。",
+      "keyframe_first": "At frame left the small child's hand hanging at his side, fingers open, a wide gold bangle at the wrist; at frame right Li Jing's larger hand closed round a sword grip with the blade pointing out of frame; a hand width of grey brick between them; interior red light; close at 0.9m, 85mm, shallow depth of field.",
+      "keyframe_last": "Same two hands now touching: one small finger hooked around one of Li Jing's fingers, the contact single and exact, the bangle turned to throw one hard gold edge, the sword still in the same fist.",
+      "cn_first": "画面左侧娃娃的小手垂在身侧、手指松开、腕上一只宽金镯；右侧李靖的大手握在剑柄上、剑身指向画外；两只手相距一掌、中间看得见砖；手部近景。",
+      "cn_last": "娃娃的小手指勾住李靖的一根手指、两处只在那一根上接触、两只手的轮廓在红光里分得清清楚楚、金镯翻过来亮出一道硬边、剑仍握在同一只拳里。",
+      "sfx": "The faintest touch of skin, cloth rubbing.",
+      "music": "M_tender",
+      "dlg": {
+        "spk": "S1",
+        "line": "boy 抓住 dad 的手指。"
+      },
+      "words": "复习：boy / dad"
+    },
+    {
+      "seg": "ep01_s34_mom_calls",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 5,
+      "visual": "夫人撑起身，向他伸出手。",
+      "line": "殷夫人：我的 baby！",
+      "chars": [
+        "C03"
+      ],
+      "light": "S03-1R_burst",
+      "action": "Lady Yin braces one elbow on the couch and pushes her upper body half upright, then swings her free arm out toward frame right with all five fingers spread and the palm turned up. Her face is wet, her eyes are wide and her lips are parted; she calls the line with her mouth moving on every word and closing completely after the last one, and her outstretched hand trembles in the air and does not steady.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.3 metres height, her in the left half of frame with the reaching arm running across the frame toward the right edge.",
+      "cn_cam": "中景（50mm，1.3 米高），她在左，手臂横向伸过画面。",
+      "cn_action": "夫人用一只肘把自己撑起来，另一条胳膊朝孩子的方向伸出去，五指张开；她的手指在抖；她喊出那句台词，口型与每个字严丝合缝，喊完嘴唇还留着；镜头固定。",
+      "keyframe_first": "Lady Yin with one elbow braced on the couch, upper body half raised, the free arm still across her own chest, face wet and eyes open, mouth starting to part; interior red light; medium at 1.3m, 50mm, her in the left half of frame.",
+      "keyframe_last": "",
+      "cn_first": "夫人一只肘撑在榻上、上身半起、另一条手臂还收在胸前、脸湿、眼睛睁着、嘴唇分开；中景半身。",
+      "cn_last": "",
+      "sfx": "A weak but clear cry, couch cloth shifting.",
+      "music": "M_tender",
+      "dlg": {
+        "spk": "S5",
+        "line": "我的 baby！"
+      },
+      "words": "复习：baby"
+    },
+    {
+      "seg": "ep01_s35_walk_to_mom",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "娃娃转过身，摇摇晃晃朝妈妈走过去。",
+      "line": "旁白：他朝 mom 走过去。",
+      "chars": [
+        "C01",
+        "C03"
+      ],
+      "light": "S03-1R_burst",
+      "action": "The child stands at frame right facing left with both fists at his sides and his feet together, while Lady Yin leans up from the couch at frame left with one arm out and two metres of red brick between them. He turns his body toward her and walks: two steps with a wobble and one with a sideways sway, body tipping forward, both arms coming out wide for balance, one foot lifting and hanging, the long vermilion scarf dragging behind him on the brick. By the last of it he is two steps from the couch with his arms spread, and her outstretched hand has reached the height of his face with the fingers open. Neither of them speaks.",
+      "camera": "The camera holds a static wide shot on a 35mm lens at 1.2 metres height with him in the right third and her in the left third, two metres of brick held between them; the frame never follows him and never moves.",
+      "cn_cam": "全景（35mm，1.2 米高），他右、她左，中间两米砖地。",
+      "cn_action": "小娃娃转过身，面朝榻上的人；他刚会走似的，两步一晃，一步一歪地往前走，长绫在身后拖着；走到离榻两步时身体往前倾，两臂张开；夫人伸出的手已经够到他脸旁；两人都不说话。",
+      "keyframe_first": "Frame right the small child standing with his body facing left, both fists at his sides, feet together, the vermilion scarf trailing behind him; frame left Lady Yin leaning up from the couch with one arm out; two metres of red brick between them; wide at 1.2m, 35mm.",
+      "keyframe_last": "Same framing: the child two steps from the couch with his body tipped forward and both arms spread wide for balance, one foot lifted, the scarf dragging; her outstretched hand has reached the height of his face with the fingers open.",
+      "cn_first": "哪吒站在画面右侧、面朝左、拳头在身侧、两只脚并拢；夫人左侧榻上撑着、一条手臂伸出来；两人之间两米红砖；全景。",
+      "cn_last": "哪吒已走过大半段、离榻两步、身体前倾、两臂张开、一只脚抬着、长绫在身后拖着；夫人的手已经到了他脸旁、五指张开。",
+      "sfx": "Two bare feet on brick, cloth dragging on stone.",
+      "music": "M_tender",
+      "dlg": {
+        "spk": "S1",
+        "line": "他朝 mom 走过去。"
+      },
+      "words": "复习：mom"
+    },
+    {
+      "seg": "ep01_s36_hug",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "fl2va",
+      "dur": 5,
+      "visual": "他扑进妈妈怀里，妈妈抱住他，眼泪掉下来。",
+      "line": "旁白：mom 抱住了他。",
+      "chars": [
+        "C01",
+        "C03"
+      ],
+      "light": "S03-1R_burst",
+      "action": "The child is two steps from the couch with both arms spread and Lady Yin is up on one elbow with both arms open and tears wet all over her face. He tips forward and falls into her chest, his face pressed into the hollow of her shoulder, both small hands seizing her collar; her left arm comes round his back and her right hand settles flat on the back of his head; his two feet leave the brick. They stand side by side in frame without overlapping bodies and no arm crosses through cloth; the long vermilion scarf hangs off the couch edge. She makes no words, only sobs.",
+      "camera": "The camera holds a static medium shot on a 50mm lens at 1.2 metres height, both figures fully inside frame side by side with clear space above them; the frame does not push in on the embrace.",
+      "cn_cam": "中景（50mm，1.2 米高），两人同框。",
+      "cn_action": "小娃娃往前一扑，撞进夫人怀里；她的左臂绕过他的背，右手按在他后脑上；他的脸埋进她的肩窝，两只小手抓着她的衣领；长绫从榻沿垂下去；她的眼泪掉下来；镜头固定；她只有抽泣。",
+      "keyframe_first": "The child two steps from the couch with both arms spread wide and body tipped forward; Lady Yin up on one elbow with both arms open and tears wet on both cheeks, dusty-pink robe soaked dark, hair loose; interior red light; medium at 1.2m, 50mm, both figures side by side.",
+      "keyframe_last": "Same framing: the child fallen into her chest with his face pressed into the hollow of her shoulder and his hands on her collar, her left arm round his back and her right hand flat on the back of his head, his feet off the brick, the vermilion scarf hanging off the couch edge, tears running.",
+      "cn_first": "哪吒离榻两步、两臂张开；夫人半撑起身、两臂朝他张开、满脸泪、头发散着；中景。",
+      "cn_last": "哪吒贴在她胸前、她左臂绕过他的背、右手按在他后脑、他的脸埋在她肩窝、小手抓着她的衣领、长绫垂在榻沿外；两个人身体并排不重叠。",
+      "sfx": "Cloth crushed together, quiet sobs, silk sliding off the couch edge.",
+      "music": "M_tender",
+      "dlg": {
+        "spk": "S1",
+        "line": "mom 抱住了他。"
+      },
+      "words": "复习：mom"
+    },
+    {
+      "seg": "ep01_s37_gold_bangle",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "他手腕一翻，金镯亮起一道硬金边。",
+      "line": "旁白：他手上，有一只金镯。",
+      "chars": [
+        "C01"
+      ],
+      "light": "S03-1R_burst",
+      "action": "The child's right wrist lies across the lower frame with the wide matte gold bangle sitting at the wrist, giving no reflection, the fingers loose and a fold of vermilion silk behind the wrist. The wrist turns over and the angle of the bangle changes; its edge catches the light and throws one hard thin gold line that cuts through the red.",
+      "camera": "A static extreme close shot on a 100mm macro lens at 0.3 metres, shallow depth of field, the wrist and bangle filling the frame with the silk behind it soft; nothing moves except the wrist.",
+      "cn_cam": "大特写（100mm 微距，0.3 米，浅景深）。",
+      "cn_action": "手腕先是不动的；他轻轻一转腕子，金镯的角度变了，边缘忽然亮起一道又硬又薄的金边，红光被它切开；镜头固定；画面无声。",
+      "keyframe_first": "The child's right wrist lying across the lower frame with a wide matte gold bangle at the wrist showing no reflection, the fingers loose, a fold of vermilion silk behind the wrist; interior red light, shallow depth of field; extreme close at 0.3m, 100mm macro.",
+      "keyframe_last": "",
+      "cn_first": "哪吒右腕斜横在画面上、宽宽的哑光金镯套在腕上、没有反光、手指松着、腕后有一段朱红绫褶；大特写。",
+      "cn_last": "",
+      "sfx": "The faintest tick of metal.",
+      "music": "M_tender",
+      "dlg": {
+        "spk": "S1",
+        "line": "他手上，有一只金镯。"
+      },
+      "words": "首现：gold（金）"
+    },
+    {
+      "seg": "ep01_s38_red_scarf",
+      "part": "降世",
+      "scene": "S03-1R",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "裹在身上的朱红长绫滑到脚边，绫尾自己往上抬了一下。",
+      "line": "旁白：身上，裹着红绫。",
+      "chars": [],
+      "light": "S03-1R_burst",
+      "action": "On the brick beside two small bare feet the tail of the deep vermilion silk lies flat with the corners worn fuzzy and the colour dull, and just outside frame left the edge of a thin gold ankle ring shows. The silk loosens off the body, slides down and pools at the feet, and then the tail lifts once on its own as if a wind had caught it and drops back flat. Nobody speaks.",
+      "camera": "A static close shot on an 85mm lens at 0.4 metres height angled slightly down, only the feet, the scarf and the brick in frame; the camera does not move and no figure is in shot.",
+      "cn_cam": "近景（85mm，0.4 米，略俯）。",
+      "cn_action": "长绫原本裹在身上，慢慢松开，顺着小身子滑下来，落到脚边的砖上堆成一团；绫尾忽然自己往上抬了一下，像被风挑起来，又落回去；画面无声。",
+      "keyframe_first": "The tail of a deep vermilion silk scarf lying flat on the grey brick beside two small bare feet, its corners worn fuzzy, the colour matte, the edge of a thin gold ankle ring just outside the left edge of frame; interior red light, slightly high angle; close at 0.4m, 85mm.",
+      "keyframe_last": "",
+      "cn_first": "小赤脚旁的砖地上，朱红长绫的末端平铺着、边角磨得起毛、颜色深而哑、画面左侧露出一点细金脚环；近景略俯。",
+      "cn_last": "",
+      "sfx": "A soft rustle of silk sliding down.",
+      "music": "M_tender",
+      "dlg": {
+        "spk": "S1",
+        "line": "身上，裹着红绫。"
+      },
+      "words": "复习：red（红）"
+    },
+    {
+      "seg": "ep01_s39_master_clouds",
+      "part": "钩子",
+      "scene": "SKY-1",
+      "mode": "i2va",
+      "dur": 5,
+      "visual": "云端：白胡子老道坐在云台上，睁开眼，笑了。",
+      "line": "旁白：天上，有一个老神仙。",
+      "chars": [
+        "C04"
+      ],
+      "light": "SKY",
+      "action": "High above, an old bearded immortal sits cross-legged on a flat cloud platform, eyes shut, the white horsetail whisk lying across his knees, the long white beard hanging to his chest; three cloud layers stack below him and the whole city shrinks to the size of a thumbnail far down in the lower left with one tiny red lantern dot. His eyelids lift, his eyes open, his white brows lift and the corners of his mouth turn up into a smile, and the beard trembles once. He says nothing.",
+      "camera": "The camera holds a static wide shot on a 35mm lens at 1.4 metres height, three cloud layers filling the frame, the platform at centre and the city tiny at the lower left; no push in.",
+      "cn_cam": "全景（35mm，1.4 米高）。",
+      "cn_action": "云台上的老道坐着不动，白须垂在胸前；他的眼皮慢慢抬起来，睁开眼；白眉毛挑了一下，嘴角往上，笑了；胡须跟着一颤；镜头固定；他不说话。",
+      "keyframe_first": "A high wide view of three white cloud layers, a flat cloud platform at the centre with one curling cloud tongue running off its right edge, a tiny city of grey roofs far down in the lower left with one small red lantern dot; on the platform an old white-bearded immortal in a moon-white wide-sleeved robe with silver cloud patterns, long white beard to his chest, jade hairpin and a gourd at his waist, cloth shoes, a white horsetail whisk across his knees, eyes closed; cool high-altitude light, wide at 1.4m, 35mm.",
+      "keyframe_last": "",
+      "cn_first": "三层云海；下中一块平云台、边缘一道翻卷的云舌；下方城屋顶缩成指甲盖、画面左下一盏小红灯笼；云台上坐着白胡子老道、月白宽袖道袍带银云纹、长白须垂到胸口、玉簪、腰挂葫芦、布鞋、白拂尘横在膝上、双眼闭着；全景。",
+      "cn_last": "",
+      "sfx": "High-altitude wind, very distant stillness.",
+      "music": "M_hook",
+      "dlg": {
+        "spk": "S1",
+        "line": "天上，有一个老神仙。"
+      },
+      "words": "首现：sky（天）"
+    },
+    {
+      "seg": "ep01_s40_nod_down",
+      "part": "钩子",
+      "scene": "SKY-1",
+      "mode": "i2va",
+      "dur": 4,
+      "visual": "他向下点一下头，云台边的云舌往外卷。",
+      "line": "（无台词·云涌与轻风）",
+      "chars": [
+        "C04"
+      ],
+      "light": "SKY",
+      "action": "The immortal sits cross-legged with both eyes open and the smile still on his face, the whisk across his knees and the cloud tongue at the platform edge lying flat and still. He nods once, dipping his head toward the city below so that the long beard swings forward; the cloud tongue then unrolls outward off the edge like a bolt of silk being pulled out, and he makes one quiet laugh and no words.",
+      "camera": "The camera holds a static wide shot on a 35mm lens at 1.4 metres height with the same composition as the previous shot, the platform at centre and the cloud tongue running off the right edge; the frame stays fixed.",
+      "cn_cam": "全景（35mm，1.4 米高），构图同上一镜。",
+      "cn_action": "老道盘腿坐着、两眼睁开、面带微笑、拂尘横在膝上、云台边的云舌平着不动；他把头往下点了一下，白须跟着垂；云台边上那道云舌慢慢往外翻卷，像一条长长的绸带抽出去；他不出声，只有很轻的一声笑。",
+      "keyframe_first": "The immortal sitting cross-legged with both eyes open and a smile, the white whisk across his knees, the cloud tongue at the platform edge lying flat and still, the city tiny at the lower left; cool high-altitude light; wide at 1.4m, 35mm, same composition as the preceding shot.",
+      "keyframe_last": "",
+      "cn_first": "老道盘腿坐着、两眼睁开、面带微笑、拂尘横在膝上、云台边的云舌平着不动、城在下方；全景。",
+      "cn_last": "",
+      "sfx": "Cloud churning low, high wind.",
+      "music": "M_hook",
+      "dlg": null,
+      "words": "—"
+    },
+    {
+      "seg": "ep01_s41_pull_back",
+      "part": "钩子",
+      "scene": "SKY-1",
+      "mode": "fl2va",
+      "dur": 4,
+      "visual": "镜头后拉，云海铺开，城缩成一个点。",
+      "line": "旁白：他，要来了。",
+      "chars": [
+        "C04"
+      ],
+      "light": "SKY",
+      "action": "The shot starts tight on the immortal small at the centre of the flat platform with his head dipped and the cloud tongue unrolled off the edge. The camera then pulls back continuously: the platform shrinks to a pale disc at the centre of the cloud sea, the immortal ceases to be readable as a figure, the city below falls to a single grey dot with one point of red, and the three cloud layers spread out to fill the whole frame. The camera never tilts and never shakes; only the distance grows. Nobody speaks.",
+      "camera": "A continuous dolly back on a 24mm lens starting at 1.6 metres height, ending far beyond the platform; the platform, the cloud tongue and the city all stay at their original screen positions while the scale shrinks.",
+      "cn_cam": "广角后拉（24mm，起始 1.6 米高），持续后拉，不摇不晃。",
+      "cn_action": "镜头从云台往后拉，越拉越远；云海一层层铺开，把画面填满；云台缩成中间一个小圆盘，老道上的人形越来越小直到看不清；下方那座城缩成一个灰点，只剩一点红；全程不摇不晃；无人说话。",
+      "keyframe_first": "From a little further out: the immortal small on the flat cloud platform at the centre with his head dipped, the cloud tongue unrolled off the right edge, three cloud layers stacked, the city tiny at the lower left with one red dot; cool high-altitude light; wide at 1.6m, 24mm.",
+      "keyframe_last": "From far out: the platform shrunk to a pale disc at the centre of the cloud sea, the immortal no longer readable as a figure, the city only a single grey speck with one point of red, three cloud layers filling the entire frame.",
+      "cn_first": "从稍远处看：老道小小的坐在平云台中央、下巴低着、云舌向外卷、三层云海上下叠着、城在画面左下缩成一小块、一点红光；广角。",
+      "cn_last": "机位已经远得多：云台缩成云海中央一枚小小的浅色圆盘、老道已经看不清人形、下方的城只剩一粒灰点、一点红光。",
+      "sfx": "Wind receding, a low tone fading out.",
+      "music": "M_hook",
+      "dlg": {
+        "spk": "S1",
+        "line": "他，要来了。"
+      },
+      "words": "复习：he"
+    }
+  ]
+}
